@@ -1,0 +1,83 @@
+2024-03-18 02:26:45,420 - INFO [Resource,0 Main service::run] ResourceService 0 up and running!
+2024-03-18 02:26:45,424 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (ContestWebServer, 0)...
+2024-03-18 02:26:45,432 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsContestWebServer 0 -c 2'
+2024-03-18 02:26:45,433 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsContestWebServer'
+2024-03-18 02:26:45,612 - INFO [Resource,0 3 rpc::initialize] Established connection with 127.0.0.1:48392 (local address: 127.0.0.1:28000).
+2024-03-18 02:26:45,855 - INFO [Resource,0 4 rpc::initialize] Established connection with 127.0.0.1:48400 (local address: 127.0.0.1:28000).
+2024-03-18 02:26:50,435 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (ContestWebServer, 0)...
+2024-03-18 02:26:50,443 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsContestWebServer 0 -c 2'
+2024-03-18 02:26:50,444 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsContestWebServer'
+2024-03-18 02:26:55,435 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (ContestWebServer, 0)...
+2024-03-18 02:26:55,442 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsContestWebServer 0 -c 2'
+2024-03-18 02:26:55,443 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsContestWebServer'
+2024-03-18 02:27:00,436 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (ContestWebServer, 0)...
+2024-03-18 02:27:00,447 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsContestWebServer 0 -c 2'
+2024-03-18 02:27:00,448 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsContestWebServer'
+2024-03-18 02:27:05,437 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (EvaluationService, 0)...
+2024-03-18 02:27:05,445 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsEvaluationService 0 -c 2'
+2024-03-18 02:27:05,445 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsEvaluationService'
+2024-03-18 02:27:10,438 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (EvaluationService, 0)...
+2024-03-18 02:27:10,446 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsEvaluationService 0 -c 2'
+2024-03-18 02:27:10,447 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsEvaluationService'
+2024-03-18 02:27:11,878 - WARNING [Resource,0 6 service::exit] ResourceService,0 received request to shut down.
+2024-03-18 02:27:11,879 - INFO [Resource,0 Main service::run] ResourceService 0 is shutting down

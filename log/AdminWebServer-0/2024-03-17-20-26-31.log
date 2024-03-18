@@ -1,0 +1,782 @@
+2024-03-17 20:26:31,860 - INFO [Admin,0 Main service::run] AdminWebServer 0 up and running!
+2024-03-17 20:26:31,861 - INFO [Admin,0 3 rpc::initialize] Established connection with localhost:21100 (AdminWebServer,0) (local address: 127.0.0.1:48612).
+2024-03-17 20:26:31,862 - INFO [Admin,0 7 rpc::initialize] Established connection with 127.0.0.1:48612 (local address: 127.0.0.1:21100).
+2024-03-17 20:26:37,788 - INFO [Admin,0 8 web::log_request] 200 GET / (::1) 56.42ms
+2024-03-17 20:26:38,255 - INFO [Admin,0 9 web::log_request] 200 GET /notifications?last_notification=1710707197.735498 (::1) 5.99ms
+2024-03-17 20:26:46,427 - INFO [Admin,0 6 rpc::initialize] Established connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:47094).
+2024-03-17 20:26:53,512 - INFO [Admin,0 10 web::log_request] 304 GET /notifications?last_notification=1710707197.735498 (::1) 117.91ms
+2024-03-17 20:27:01,040 - INFO [Admin,0 11 rpc::initialize] Established connection with 127.0.0.1:45334 (local address: 127.0.0.1:21100).
+2024-03-17 20:27:01,102 - INFO [Admin,0 2 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:38954).
+2024-03-17 20:27:02,106 - INFO [Admin,0 1 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:44234).
+2024-03-17 20:27:03,610 - INFO [Admin,0 5 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:55736).
+2024-03-17 20:27:08,396 - INFO [Admin,0 12 web::log_request] 304 GET /notifications?last_notification=1710707197.735498 (::1) 10.46ms
+2024-03-17 20:27:23,393 - INFO [Admin,0 8 web::log_request] 200 GET /notifications?last_notification=1710707197.735498 (::1) 5.80ms
+2024-03-17 20:27:38,394 - INFO [Admin,0 13 web::log_request] 304 GET /notifications?last_notification=1710707197.735498 (::1) 7.27ms
+2024-03-17 20:27:53,404 - INFO [Admin,0 14 web::log_request] 200 GET /notifications?last_notification=1710707197.735498 (::1) 14.83ms
+2024-03-17 20:28:35,860 - INFO [Admin,0 14 web::log_request] 304 GET /notifications?last_notification=1710707197.735498 (::1) 5.47ms
+2024-03-17 20:29:02,053 - INFO [Admin,0 11 rpc::finalize] Terminated connection with 127.0.0.1:45334 (local address: 127.0.0.1:21100): Connection closed.
+2024-03-17 20:29:03,976 - INFO [Admin,0 6 rpc::finalize] Terminated connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:47094): Connection closed.
+2024-03-17 20:29:03,981 - INFO [Admin,0 1 rpc::finalize] Terminated connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:44234): Connection closed.
+2024-03-17 20:29:04,168 - INFO [Admin,0 2 rpc::finalize] Terminated connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:38954): Connection closed.
+2024-03-17 20:29:04,253 - INFO [Admin,0 5 rpc::finalize] Terminated connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:55736): Connection closed.
+2024-03-17 20:29:35,573 - INFO [Admin,0 15 web::log_request] 200 GET /notifications?last_notification=1710707197.735498 (::1) 18.05ms
+2024-03-17 20:30:29,889 - INFO [Admin,0 15 web::log_request] 200 GET /notifications?last_notification=1710707197.735498 (::1) 3.11ms
+2024-03-17 20:30:33,702 - INFO [Admin,0 15 web::log_request] 200 GET /contest/1 (::1) 34.09ms
+2024-03-17 20:30:34,091 - INFO [Admin,0 16 web::log_request] 200 GET /notifications?last_notification=1710707433.671621 (::1) 3.45ms
+2024-03-17 20:30:37,350 - INFO [Admin,0 17 web::log_request] 200 GET /contest/1/announcements (::1) 21.16ms
+2024-03-17 20:30:37,621 - INFO [Admin,0 15 web::log_request] 200 GET /notifications?last_notification=1710707437.333363 (::1) 3.39ms
+2024-03-17 20:30:52,659 - INFO [Admin,0 16 web::log_request] 304 GET /notifications?last_notification=1710707437.333363 (::1) 10.03ms
+2024-03-17 20:30:56,337 - INFO [Admin,0 18 web::log_request] 302 POST /contest/1/announcements/add (::1) 19.91ms
+2024-03-17 20:30:56,587 - INFO [Admin,0 19 web::log_request] 200 GET /contest/1/announcements (::1) 11.78ms
+2024-03-17 20:30:56,863 - INFO [Admin,0 18 web::log_request] 200 GET /notifications?last_notification=1710707456.579361 (::1) 2.93ms
+2024-03-17 20:31:12,016 - INFO [Admin,0 15 web::log_request] 200 GET /notifications?last_notification=1710707456.579361 (::1) 3.18ms
+2024-03-17 20:31:13,408 - INFO [Admin,0 20 web::log_request] 200 GET / (::1) 7.76ms
+2024-03-17 20:31:13,879 - INFO [Admin,0 19 web::log_request] 200 GET /notifications?last_notification=1710707473.403292 (::1) 4.54ms
+2024-03-17 20:31:15,042 - INFO [Admin,0 16 web::log_request] 200 GET /task/1 (::1) 97.04ms
+2024-03-17 20:31:15,436 - INFO [Admin,0 17 web::log_request] 200 GET /notifications?last_notification=1710707474.949978 (::1) 3.66ms
+2024-03-17 20:31:30,452 - INFO [Admin,0 21 web::log_request] 304 GET /notifications?last_notification=1710707474.949978 (::1) 4.59ms
+2024-03-17 20:31:45,596 - INFO [Admin,0 17 web::log_request] 304 GET /notifications?last_notification=1710707474.949978 (::1) 10.14ms
+2024-03-17 20:31:54,027 - INFO [Admin,0 21 web::log_request] 200 GET /dataset/1/managers/add (::1) 30.37ms
+2024-03-17 20:31:54,297 - INFO [Admin,0 15 web::log_request] 200 GET /notifications?last_notification=1710707514.011993 (::1) 9.56ms
+2024-03-17 20:32:00,438 - INFO [Admin,0 17 web::log_request] 200 GET /notifications?last_notification=1710707474.949978 (::1) 2.96ms
+2024-03-17 20:32:15,598 - INFO [Admin,0 15 web::log_request] 304 GET /notifications?last_notification=1710707474.949978 (::1) 3.00ms
+2024-03-17 20:32:28,516 - INFO [Admin,0 21 web::log_request] 302 POST /task/1 (::1) 27.49ms
+2024-03-17 20:32:28,795 - INFO [Admin,0 22 web::log_request] 200 GET /task/1 (::1) 28.89ms
+2024-03-17 20:32:29,181 - INFO [Admin,0 23 web::log_request] 200 GET /notifications?last_notification=1710707548.772523 (::1) 3.63ms
+2024-03-17 20:32:44,394 - INFO [Admin,0 21 web::log_request] 200 GET /notifications?last_notification=1710707548.772523 (::1) 3.86ms
+2024-03-17 20:32:59,543 - INFO [Admin,0 21 web::log_request] 304 GET /notifications?last_notification=1710707548.772523 (::1) 3.60ms
+2024-03-17 20:33:14,408 - INFO [Admin,0 24 web::log_request] 200 GET /notifications?last_notification=1710707548.772523 (::1) 11.26ms
+2024-03-17 20:33:24,685 - INFO [Admin,0 21 web::log_request] 200 GET /contest/1/submissions (::1) 67.61ms
+2024-03-17 20:33:25,280 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707604.625243 (::1) 3.24ms
+2024-03-17 20:33:40,453 - INFO [Admin,0 25 web::log_request] 304 GET /notifications?last_notification=1710707604.625243 (::1) 2.88ms
+2024-03-17 20:33:55,402 - INFO [Admin,0 26 web::log_request] 304 GET /notifications?last_notification=1710707604.625243 (::1) 3.89ms
+2024-03-17 20:34:10,549 - INFO [Admin,0 27 web::log_request] 304 GET /notifications?last_notification=1710707604.625243 (::1) 14.38ms
+2024-03-17 20:34:11,557 - INFO [Admin,0 6 rpc::initialize] Established connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:56010).
+2024-03-17 20:34:24,465 - INFO [Admin,0 28 rpc::initialize] Established connection with 127.0.0.1:59898 (local address: 127.0.0.1:21100).
+2024-03-17 20:34:25,493 - INFO [Admin,0 27 web::log_request] 200 GET /notifications?last_notification=1710707604.625243 (::1) 99.37ms
+2024-03-17 20:34:25,635 - INFO [Admin,0 2 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:34260).
+2024-03-17 20:34:26,144 - INFO [Admin,0 1 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:40754).
+2024-03-17 20:34:27,654 - INFO [Admin,0 5 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:52716).
+2024-03-17 20:34:40,427 - INFO [Admin,0 27 web::log_request] 304 GET /notifications?last_notification=1710707604.625243 (::1) 9.79ms
+2024-03-17 20:34:41,625 - INFO [Admin,0 29 web::log_request] 200 GET / (::1) 12.60ms
+2024-03-17 20:34:42,030 - INFO [Admin,0 29 web::log_request] 200 GET /notifications?last_notification=1710707681.616111 (::1) 13.41ms
+2024-03-17 20:34:43,445 - INFO [Admin,0 30 web::log_request] 200 GET /task/1 (::1) 19.85ms
+2024-03-17 20:34:43,833 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707683.430406 (::1) 2.86ms
+2024-03-17 20:34:46,024 - INFO [Admin,0 21 web::log_request] 200 GET / (::1) 7.88ms
+2024-03-17 20:34:46,451 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707686.018218 (::1) 11.43ms
+2024-03-17 20:34:49,302 - INFO [Admin,0 27 web::log_request] 200 GET /task/1 (::1) 18.10ms
+2024-03-17 20:34:50,186 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707689.289629 (::1) 2.91ms
+2024-03-17 20:34:54,319 - INFO [Admin,0 21 web::log_request] 200 GET /dataset/1 (::1) 65.42ms
+2024-03-17 20:34:54,586 - INFO [Admin,0 27 web::log_request] 200 GET /notifications?last_notification=1710707694.260625 (::1) 3.37ms
+2024-03-17 20:34:59,056 - INFO [Admin,0 30 web::log_request] 200 GET /submission/1/1 (::1) 59.44ms
+2024-03-17 20:34:59,323 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707699.005258 (::1) 3.47ms
+2024-03-17 20:35:12,655 - INFO [Admin,0 31 web::log_request] 302 POST /submission/1/1/comment (::1) 11.72ms
+2024-03-17 20:35:12,927 - INFO [Admin,0 21 web::log_request] 200 GET /submission/1/1 (::1) 29.70ms
+2024-03-17 20:35:13,193 - INFO [Admin,0 30 web::log_request] 200 GET /notifications?last_notification=1710707712.902722 (::1) 3.19ms
+2024-03-17 20:35:21,366 - INFO [Admin,0 30 web::log_request] 200 GET /submission/1/1 (::1) 24.79ms
+2024-03-17 20:35:21,633 - INFO [Admin,0 30 web::log_request] 200 GET /notifications?last_notification=1710707721.345808 (::1) 12.99ms
+2024-03-17 20:35:23,440 - INFO [Admin,0 27 web::log_request] 200 GET /submission/1/1 (::1) 32.43ms
+2024-03-17 20:35:23,706 - INFO [Admin,0 27 web::log_request] 200 GET /notifications?last_notification=1710707723.413388 (::1) 3.37ms
+2024-03-17 20:35:25,090 - INFO [Admin,0 30 web::log_request] 302 POST /submission/1/1/comment (::1) 6.85ms
+2024-03-17 20:35:25,355 - INFO [Admin,0 27 web::log_request] 200 GET /submission/1/1 (::1) 23.96ms
+2024-03-17 20:35:25,610 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707725.335697 (::1) 2.96ms
+2024-03-17 20:35:28,244 - INFO [Admin,0 31 submission::post] Submission '1' by user abbas in contest nigga has been made unofficial
+2024-03-17 20:35:28,245 - INFO [Admin,0 31 web::log_request] 302 POST /submission/1/1/official (::1) 17.77ms
+2024-03-17 20:35:28,514 - INFO [Admin,0 26 web::log_request] 200 GET /submission/1/1 (::1) 26.08ms
+2024-03-17 20:35:28,776 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707728.493199 (::1) 3.01ms
+2024-03-17 20:35:30,588 - INFO [Admin,0 21 web::log_request] 302 POST /submission/1/1/comment (::1) 4.85ms
+2024-03-17 20:35:30,852 - INFO [Admin,0 31 web::log_request] 200 GET /submission/1/1 (::1) 28.22ms
+2024-03-17 20:35:31,107 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707730.829628 (::1) 3.00ms
+2024-03-17 20:35:42,538 - INFO [Admin,0 26 web::log_request] 304 GET /notifications?last_notification=1710707694.260625 (::1) 3.29ms
+2024-03-17 20:35:43,048 - INFO [Admin,0 25 web::log_request] 304 GET /notifications?last_notification=1710707689.289629 (::1) 3.56ms
+2024-03-17 20:35:46,167 - INFO [Admin,0 25 web::log_request] 200 GET /submission/1/1 (::1) 25.08ms
+2024-03-17 20:35:46,436 - INFO [Admin,0 21 web::log_request] 200 GET /notifications?last_notification=1710707746.147982 (::1) 3.89ms
+2024-03-17 20:35:47,733 - INFO [Admin,0 21 web::log_request] 302 POST /submission/1/1/comment (::1) 3.70ms
+2024-03-17 20:35:47,994 - INFO [Admin,0 26 web::log_request] 200 GET /submission/1/1 (::1) 23.42ms
+2024-03-17 20:35:48,255 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707747.975126 (::1) 3.36ms
+2024-03-17 20:35:48,442 - INFO [Admin,0 27 web::log_request] 302 POST /submission/1/1/comment (::1) 3.97ms
+2024-03-17 20:35:48,707 - INFO [Admin,0 21 web::log_request] 200 GET /submission/1/1 (::1) 24.51ms
+2024-03-17 20:35:48,980 - INFO [Admin,0 30 web::log_request] 200 GET /notifications?last_notification=1710707748.687359 (::1) 5.57ms
+2024-03-17 20:35:55,569 - INFO [Admin,0 25 web::log_request] 200 GET /contest/1/users (::1) 19.13ms
+2024-03-17 20:35:55,834 - INFO [Admin,0 27 web::log_request] 200 GET /notifications?last_notification=1710707755.55338 (::1) 3.14ms
+2024-03-17 20:35:56,945 - INFO [Admin,0 31 web::log_request] 200 GET /contest/1/tasks (::1) 29.18ms
+2024-03-17 20:35:57,212 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707756.920879 (::1) 4.33ms
+2024-03-17 20:35:58,489 - INFO [Admin,0 30 web::log_request] 200 GET /contest/1/announcements (::1) 13.51ms
+2024-03-17 20:35:58,747 - INFO [Admin,0 27 web::log_request] 200 GET /notifications?last_notification=1710707758.479253 (::1) 3.04ms
+2024-03-17 20:35:59,620 - INFO [Admin,0 21 web::log_request] 200 GET /contest/1/questions (::1) 39.94ms
+2024-03-17 20:35:59,879 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707759.584388 (::1) 3.10ms
+2024-03-17 20:36:01,545 - INFO [Admin,0 25 web::log_request] 200 GET /contest/1 (::1) 30.76ms
+2024-03-17 20:36:01,936 - INFO [Admin,0 26 web::log_request] 200 GET /notifications?last_notification=1710707761.519391 (::1) 3.94ms
+2024-03-17 20:36:11,858 - INFO [Admin,0 27 web::log_request] 200 GET / (::1) 9.59ms
+2024-03-17 20:36:12,260 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707771.8514 (::1) 20.71ms
+2024-03-17 20:36:17,997 - INFO [Admin,0 30 web::log_request] 200 GET /tasks/add (::1) 9.15ms
+2024-03-17 20:36:18,263 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707777.990464 (::1) 3.34ms
+2024-03-17 20:36:20,733 - INFO [Admin,0 31 web::log_request] 302 POST /tasks/add (::1) 17.71ms
+2024-03-17 20:36:20,984 - INFO [Admin,0 31 web::log_request] 200 GET /task/2 (::1) 14.35ms
+2024-03-17 20:36:21,370 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707780.973428 (::1) 2.92ms
+2024-03-17 20:36:36,381 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707780.973428 (::1) 4.00ms
+2024-03-17 20:36:51,887 - INFO [Admin,0 31 web::log_request] 304 GET /notifications?last_notification=1710707780.973428 (::1) 26.05ms
+2024-03-17 20:37:06,373 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707780.973428 (::1) 4.07ms
+2024-03-17 20:37:21,532 - INFO [Admin,0 25 web::log_request] 304 GET /notifications?last_notification=1710707780.973428 (::1) 15.49ms
+2024-03-17 20:37:35,535 - INFO [Admin,0 31 web::log_request] 302 POST /task/2 (::1) 34.06ms
+2024-03-17 20:37:36,121 - INFO [Admin,0 25 web::log_request] 200 GET /task/2 (::1) 16.57ms
+2024-03-17 20:37:36,379 - INFO [Admin,0 32 web::log_request] 200 GET /notifications?last_notification=1710707780.973428 (::1) 3.80ms
+2024-03-17 20:37:36,831 - INFO [Admin,0 32 web::log_request] 200 GET /notifications?last_notification=1710707856.110712 (::1) 7.52ms
+2024-03-17 20:37:40,651 - INFO [Admin,0 28 rpc::finalize] Terminated connection with 127.0.0.1:59898 (local address: 127.0.0.1:21100): Connection closed.
+2024-03-17 20:37:42,583 - INFO [Admin,0 6 rpc::finalize] Terminated connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:56010): Connection closed.
+2024-03-17 20:37:42,824 - INFO [Admin,0 1 rpc::finalize] Terminated connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:40754): Connection closed.
+2024-03-17 20:37:42,962 - INFO [Admin,0 5 rpc::finalize] Terminated connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:52716): Connection closed.
+2024-03-17 20:37:43,007 - INFO [Admin,0 2 rpc::finalize] Terminated connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:34260): Connection closed.
+2024-03-17 20:37:52,532 - INFO [Admin,0 31 web::log_request] 304 GET /notifications?last_notification=1710707856.110712 (::1) 3.81ms
+2024-03-17 20:37:53,618 - INFO [Admin,0 6 rpc::initialize] Established connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:41198).
+2024-03-17 20:38:07,400 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707856.110712 (::1) 9.79ms
+2024-03-17 20:38:08,365 - INFO [Admin,0 33 rpc::initialize] Established connection with 127.0.0.1:59564 (local address: 127.0.0.1:21100).
+2024-03-17 20:38:08,938 - INFO [Admin,0 1 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:54662).
+2024-03-17 20:38:09,083 - INFO [Admin,0 2 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:33352).
+2024-03-17 20:38:10,562 - INFO [Admin,0 5 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:41264).
+2024-03-17 20:38:17,252 - INFO [Admin,0 25 web::log_request] 200 GET /contest/1 (::1) 11.93ms
+2024-03-17 20:38:17,658 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707897.24409 (::1) 2.92ms
+2024-03-17 20:38:19,861 - INFO [Admin,0 32 web::log_request] 200 GET /contest/1/tasks (::1) 13.81ms
+2024-03-17 20:38:20,139 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707899.851841 (::1) 9.82ms
+2024-03-17 20:38:23,959 - INFO [Admin,0 32 web::log_request] 302 POST /contest/1/tasks (::1) 31.15ms
+2024-03-17 20:38:24,215 - INFO [Admin,0 31 web::log_request] 200 GET /contest/1/tasks (::1) 13.74ms
+2024-03-17 20:38:24,843 - INFO [Admin,0 34 web::log_request] 200 GET /notifications?last_notification=1710707904.20545 (::1) 4.66ms
+2024-03-17 20:38:29,613 - INFO [Admin,0 34 web::log_request] 302 POST /contest/1/tasks/add (::1) 19.72ms
+2024-03-17 20:38:29,871 - INFO [Admin,0 34 web::log_request] 200 GET /contest/1/tasks (::1) 13.43ms
+2024-03-17 20:38:30,126 - INFO [Admin,0 34 web::log_request] 200 GET /notifications?last_notification=1710707909.861358 (::1) 2.97ms
+2024-03-17 20:38:45,384 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707909.861358 (::1) 4.09ms
+2024-03-17 20:38:50,366 - INFO [Admin,0 32 web::log_request] 200 GET / (::1) 7.11ms
+2024-03-17 20:38:50,831 - INFO [Admin,0 35 web::log_request] 200 GET /notifications?last_notification=1710707930.361491 (::1) 4.76ms
+2024-03-17 20:38:51,893 - INFO [Admin,0 31 web::log_request] 200 GET /task/2 (::1) 16.94ms
+2024-03-17 20:38:52,275 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707931.879827 (::1) 3.89ms
+2024-03-17 20:38:53,608 - INFO [Admin,0 32 web::log_request] 200 GET /contest/1/submissions (::1) 52.50ms
+2024-03-17 20:38:53,873 - INFO [Admin,0 34 web::log_request] 200 GET /notifications?last_notification=1710707933.584792 (::1) 4.36ms
+2024-03-17 20:38:57,126 - INFO [Admin,0 36 web::log_request] 200 GET / (::1) 6.88ms
+2024-03-17 20:38:57,506 - INFO [Admin,0 36 web::log_request] 200 GET /notifications?last_notification=1710707937.121581 (::1) 3.93ms
+2024-03-17 20:39:00,096 - INFO [Admin,0 32 web::log_request] 200 GET /task/2 (::1) 22.35ms
+2024-03-17 20:39:00,494 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707940.078785 (::1) 3.08ms
+2024-03-17 20:39:05,316 - INFO [Admin,0 25 web::log_request] 200 GET /task/2/add_dataset (::1) 26.36ms
+2024-03-17 20:39:05,697 - INFO [Admin,0 35 web::log_request] 200 GET /notifications?last_notification=1710707945.294015 (::1) 2.96ms
+2024-03-17 20:39:19,696 - INFO [Admin,0 32 web::log_request] 200 GET /task/2 (::1) 23.19ms
+2024-03-17 20:39:20,076 - INFO [Admin,0 34 web::log_request] 200 GET /notifications?last_notification=1710707959.677201 (::1) 3.19ms
+2024-03-17 20:39:22,352 - INFO [Admin,0 35 web::log_request] 200 GET /dataset/2/managers/add (::1) 11.65ms
+2024-03-17 20:39:22,626 - INFO [Admin,0 32 web::log_request] 200 GET /notifications?last_notification=1710707962.345391 (::1) 12.95ms
+2024-03-17 20:39:37,771 - INFO [Admin,0 35 web::log_request] 304 GET /notifications?last_notification=1710707962.345391 (::1) 11.13ms
+2024-03-17 20:39:52,624 - INFO [Admin,0 31 web::log_request] 200 GET /notifications?last_notification=1710707962.345391 (::1) 2.94ms
+2024-03-17 20:39:56,192 - INFO [Admin,0 25 filecacher::commit_file] File 40bd001563085fc35165329ea1ff5c5ecbdbbeef (Task manager for test) stored on the database.
+2024-03-17 20:39:56,213 - INFO [Admin,0 25 web::log_request] 302 POST /dataset/2/managers/add (::1) 48.79ms
+2024-03-17 20:39:56,504 - INFO [Admin,0 32 web::log_request] 200 GET /task/2 (::1) 53.33ms
+2024-03-17 20:39:56,901 - INFO [Admin,0 25 web::log_request] 200 GET /notifications?last_notification=1710707996.460258 (::1) 3.33ms
+2024-03-17 20:40:08,509 - INFO [Admin,0 35 web::log_request] 302 POST /task/2 (::1) 58.23ms
+2024-03-17 20:40:09,155 - INFO [Admin,0 37 web::log_request] 200 GET /task/2 (::1) 50.92ms
+2024-03-17 20:40:09,534 - INFO [Admin,0 34 web::log_request] 200 GET /notifications?last_notification=1710708009.113607 (::1) 4.57ms
+2024-03-17 20:40:25,393 - INFO [Admin,0 35 web::log_request] 200 GET /notifications?last_notification=1710708009.113607 (::1) 4.23ms
+2024-03-17 20:40:39,692 - INFO [Admin,0 37 web::log_request] 304 GET /notifications?last_notification=1710708009.113607 (::1) 11.03ms
+2024-03-17 20:40:54,340 - INFO [Admin,0 35 web::log_request] 302 POST /task/2 (::1) 28.36ms
+2024-03-17 20:40:54,608 - INFO [Admin,0 34 web::log_request] 200 GET /task/2 (::1) 25.01ms
+2024-03-17 20:40:54,998 - INFO [Admin,0 34 web::log_request] 200 GET /notifications?last_notification=1710708054.59433 (::1) 3.29ms
+2024-03-17 20:41:10,531 - INFO [Admin,0 37 web::log_request] 200 GET /notifications?last_notification=1710708054.59433 (::1) 3.69ms
+2024-03-17 20:41:25,390 - INFO [Admin,0 37 web::log_request] 200 GET /notifications?last_notification=1710708054.59433 (::1) 5.14ms
+2024-03-17 20:41:40,550 - INFO [Admin,0 35 web::log_request] 304 GET /notifications?last_notification=1710708054.59433 (::1) 3.07ms
+2024-03-17 20:41:53,141 - INFO [Admin,0 38 web::log_request] 200 GET /contest/1/overview (::1) 13.20ms
+2024-03-17 20:41:53,869 - INFO [Admin,0 39 web::log_request] 200 GET /notifications?last_notification=1710708113.132266 (::1) 4.24ms
+2024-03-17 20:42:00,711 - INFO [Admin,0 37 web::log_request] 200 GET /submission/1/1 (::1) 25.06ms
+2024-03-17 20:42:00,970 - INFO [Admin,0 38 web::log_request] 200 GET /notifications?last_notification=1710708120.692593 (::1) 3.08ms
+2024-03-17 20:42:05,464 - INFO [Admin,0 35 web::log_request] 200 GET /submission/1 (::1) 29.15ms
+2024-03-17 20:42:05,730 - INFO [Admin,0 40 web::log_request] 200 GET /notifications?last_notification=1710708125.441482 (::1) 3.80ms
+2024-03-17 20:42:09,500 - INFO [Admin,0 38 web::log_request] 200 GET /dataset/1 (::1) 43.56ms
+2024-03-17 20:42:09,766 - INFO [Admin,0 35 web::log_request] 200 GET /notifications?last_notification=1710708129.464166 (::1) 5.96ms
+2024-03-17 20:42:15,741 - INFO [Admin,0 38 web::log_request] 200 GET /submission/1/1 (::1) 23.74ms
+2024-03-17 20:42:16,001 - INFO [Admin,0 37 web::log_request] 200 GET /notifications?last_notification=1710708135.722582 (::1) 3.17ms
+2024-03-17 20:42:17,379 - INFO [Admin,0 41 web::log_request] 302 POST /submission/1/1/comment (::1) 8.10ms
+2024-03-17 20:42:17,651 - INFO [Admin,0 41 web::log_request] 200 GET /submission/1/1 (::1) 23.93ms
+2024-03-17 20:42:17,911 - INFO [Admin,0 37 web::log_request] 200 GET /notifications?last_notification=1710708137.631076 (::1) 3.18ms
+2024-03-17 20:42:25,711 - INFO [Admin,0 37 web::log_request] 200 GET /contest/1 (::1) 14.84ms
+2024-03-17 20:42:26,093 - INFO [Admin,0 40 web::log_request] 200 GET /notifications?last_notification=1710708145.700515 (::1) 3.00ms
+2024-03-17 20:42:29,068 - INFO [Admin,0 35 web::log_request] 200 GET / (::1) 9.71ms
+2024-03-17 20:42:29,449 - INFO [Admin,0 37 web::log_request] 200 GET /notifications?last_notification=1710708149.061267 (::1) 7.96ms
+2024-03-17 20:42:30,777 - INFO [Admin,0 38 web::log_request] 200 GET /contest/1 (::1) 11.20ms
+2024-03-17 20:42:31,168 - INFO [Admin,0 42 web::log_request] 200 GET /notifications?last_notification=1710708150.769718 (::1) 3.80ms
+2024-03-17 20:42:40,781 - INFO [Admin,0 35 web::log_request] 200 GET /contest/1/tasks (::1) 20.74ms
+2024-03-17 20:42:41,043 - INFO [Admin,0 40 web::log_request] 200 GET /notifications?last_notification=1710708160.772178 (::1) 3.39ms
+2024-03-17 20:42:42,594 - INFO [Admin,0 41 web::log_request] 302 POST /contest/1/tasks (::1) 15.55ms
+2024-03-17 20:42:42,846 - INFO [Admin,0 42 web::log_request] 200 GET /contest/1/tasks (::1) 12.96ms
+2024-03-17 20:42:43,108 - INFO [Admin,0 42 web::log_request] 200 GET /notifications?last_notification=1710708162.83717 (::1) 3.02ms
+2024-03-17 20:42:44,262 - INFO [Admin,0 42 web::log_request] 200 GET / (::1) 6.10ms
+2024-03-17 20:42:44,657 - INFO [Admin,0 35 web::log_request] 200 GET /notifications?last_notification=1710708164.25838 (::1) 11.29ms
+2024-03-17 20:42:45,553 - INFO [Admin,0 38 web::log_request] 200 GET /admins (::1) 12.07ms
+2024-03-17 20:42:45,818 - INFO [Admin,0 42 web::log_request] 200 GET /notifications?last_notification=1710708165.543663 (::1) 3.77ms
+2024-03-17 20:42:51,367 - INFO [Admin,0 42 web::log_request] 200 GET /admins/add (::1) 14.59ms
+2024-03-17 20:42:51,636 - INFO [Admin,0 40 web::log_request] 200 GET /notifications?last_notification=1710708171.354175 (::1) 3.03ms
+2024-03-17 20:42:59,302 - INFO [Admin,0 40 web::log_request] 200 GET /contest/1 (::1) 45.24ms
+2024-03-17 20:42:59,681 - INFO [Admin,0 35 web::log_request] 200 GET /notifications?last_notification=1710708179.267963 (::1) 2.83ms
+2024-03-17 20:43:14,712 - INFO [Admin,0 41 web::log_request] 304 GET /notifications?last_notification=1710708179.267963 (::1) 12.72ms
+2024-03-17 20:45:03,898 - INFO [Admin,0 43 web::log_request] 200 GET / (::1) 24.99ms
+2024-03-17 20:45:04,682 - INFO [Admin,0 44 web::log_request] 200 GET /notifications?last_notification=1710708303.889194 (::1) 5.02ms
+2024-03-17 20:45:19,478 - INFO [Admin,0 45 web::log_request] 304 GET /notifications?last_notification=1710708303.889194 (::1) 3.71ms
+2024-03-17 20:45:35,717 - INFO [Admin,0 46 web::log_request] 304 GET /notifications?last_notification=1710708303.889194 (::1) 13.07ms
+2024-03-17 20:45:39,503 - INFO [Admin,0 47 web::log_request] 200 GET /task/1 (::1) 16.54ms
+2024-03-17 20:45:39,903 - INFO [Admin,0 43 web::log_request] 200 GET /notifications?last_notification=1710708339.491336 (::1) 4.16ms
+2024-03-17 20:45:46,750 - INFO [Admin,0 46 web::log_request] 200 GET /dataset/1/testcases/add (::1) 11.57ms
+2024-03-17 20:45:47,013 - INFO [Admin,0 46 web::log_request] 200 GET /notifications?last_notification=1710708346.743031 (::1) 3.14ms
+2024-03-17 20:45:52,548 - INFO [Admin,0 47 web::log_request] 200 GET /task/1 (::1) 22.36ms
+2024-03-17 20:45:52,931 - INFO [Admin,0 48 web::log_request] 200 GET /notifications?last_notification=1710708352.530812 (::1) 3.26ms
+2024-03-17 20:45:59,676 - INFO [Admin,0 48 web::log_request] 200 GET /dataset/1/testcases/add_multiple (::1) 17.68ms
+2024-03-17 20:45:59,934 - INFO [Admin,0 49 web::log_request] 200 GET /notifications?last_notification=1710708359.663799 (::1) 3.41ms
+2024-03-17 20:46:07,782 - INFO [Admin,0 47 web::log_request] 200 GET /dataset/1/testcases/add (::1) 8.30ms
+2024-03-17 20:46:08,039 - INFO [Admin,0 49 web::log_request] 200 GET /notifications?last_notification=1710708367.778373 (::1) 3.64ms
+2024-03-17 20:46:20,616 - INFO [Admin,0 50 web::log_request] 302 POST /dataset/1/testcases/add (::1) 34.38ms
+2024-03-17 20:46:20,871 - INFO [Admin,0 49 web::log_request] 200 GET /task/1 (::1) 14.72ms
+2024-03-17 20:46:21,269 - INFO [Admin,0 43 web::log_request] 200 GET /notifications?last_notification=1710708380.859666 (::1) 4.32ms
+2024-03-17 20:46:28,518 - INFO [Admin,0 50 web::log_request] 200 GET /file/40bd001563085fc35165329ea1ff5c5ecbdbbeef/input_TEST (::1) 3.24ms
+2024-03-17 20:46:36,266 - INFO [Admin,0 43 web::log_request] 200 GET /notifications?last_notification=1710708380.859666 (::1) 3.70ms
+2024-03-17 20:46:44,288 - INFO [Admin,0 47 web::log_request] 302 POST /task/1 (::1) 42.59ms
+2024-03-17 20:46:44,547 - INFO [Admin,0 48 web::log_request] 200 GET /task/1 (::1) 15.00ms
+2024-03-17 20:46:44,926 - INFO [Admin,0 48 web::log_request] 200 GET /notifications?last_notification=1710708404.536114 (::1) 2.88ms
+2024-03-17 20:46:56,604 - INFO [Admin,0 50 web::log_request] 200 GET /contest/1 (::1) 11.93ms
+2024-03-17 20:46:56,981 - INFO [Admin,0 50 web::log_request] 200 GET /notifications?last_notification=1710708416.595693 (::1) 2.73ms
+2024-03-17 20:46:59,292 - INFO [Admin,0 51 web::log_request] 200 GET /contest/1/tasks (::1) 18.51ms
+2024-03-17 20:46:59,557 - INFO [Admin,0 43 web::log_request] 200 GET /notifications?last_notification=1710708419.278792 (::1) 3.82ms
+2024-03-17 20:47:02,027 - INFO [Admin,0 43 web::log_request] 302 POST /contest/1/tasks/add (::1) 13.44ms
+2024-03-17 20:47:02,282 - INFO [Admin,0 49 web::log_request] 200 GET /contest/1/tasks (::1) 13.17ms
+2024-03-17 20:47:02,538 - INFO [Admin,0 50 web::log_request] 200 GET /notifications?last_notification=1710708422.272985 (::1) 2.88ms
+2024-03-17 20:47:03,197 - INFO [Admin,0 51 web::log_request] 200 GET /contest/1/overview (::1) 11.33ms
+2024-03-17 20:47:03,613 - INFO [Admin,0 43 web::log_request] 200 GET /notifications?last_notification=1710708423.189055 (::1) 28.16ms
+2024-03-17 20:47:04,559 - INFO [Admin,0 49 web::log_request] 200 GET / (::1) 6.59ms
+2024-03-17 20:47:04,965 - INFO [Admin,0 51 web::log_request] 200 GET /notifications?last_notification=1710708424.554382 (::1) 16.81ms
+2024-03-17 20:47:06,922 - INFO [Admin,0 51 web::log_request] 200 GET /task/1 (::1) 16.77ms
+2024-03-17 20:47:07,313 - INFO [Admin,0 52 web::log_request] 200 GET /notifications?last_notification=1710708426.909685 (::1) 3.48ms
+2024-03-17 20:47:22,857 - INFO [Admin,0 52 web::log_request] 304 GET /notifications?last_notification=1710708426.909685 (::1) 3.71ms
+2024-03-17 20:47:37,385 - INFO [Admin,0 47 web::log_request] 200 GET /notifications?last_notification=1710708426.909685 (::1) 3.27ms
+2024-03-17 20:47:42,504 - INFO [Admin,0 49 web::log_request] 200 GET /dataset/1/managers/add (::1) 13.62ms
+2024-03-17 20:47:42,770 - INFO [Admin,0 47 web::log_request] 200 GET /notifications?last_notification=1710708462.496203 (::1) 10.48ms
+2024-03-17 20:47:59,950 - INFO [Admin,0 52 web::log_request] 304 GET /notifications?last_notification=1710708426.909685 (::1) 3.80ms
+2024-03-17 20:48:14,810 - INFO [Admin,0 47 web::log_request] 200 GET /notifications?last_notification=1710708426.909685 (::1) 3.76ms
+2024-03-17 20:48:21,722 - INFO [Admin,0 47 web::log_request] 302 POST /task/1 (::1) 29.34ms
+2024-03-17 20:48:22,190 - INFO [Admin,0 53 web::log_request] 200 GET /task/1 (::1) 34.42ms
+2024-03-17 20:48:22,583 - INFO [Admin,0 52 web::log_request] 200 GET /notifications?last_notification=1710708502.162636 (::1) 3.52ms
+2024-03-17 20:48:38,904 - INFO [Admin,0 53 web::log_request] 200 GET /notifications?last_notification=1710708502.162636 (::1) 16.57ms
+2024-03-17 20:48:41,302 - INFO [Admin,0 47 web::log_request] 200 GET /contest/1/submissions (::1) 44.51ms
+2024-03-17 20:48:41,993 - INFO [Admin,0 54 web::log_request] 200 GET /notifications?last_notification=1710708521.264768 (::1) 3.53ms
+2024-03-17 20:48:56,661 - INFO [Admin,0 47 web::log_request] 304 GET /notifications?last_notification=1710708521.264768 (::1) 3.34ms
+2024-03-17 20:48:56,706 - INFO [Admin,0 55 web::log_request] 200 GET /contest/1 (::1) 23.58ms
+2024-03-17 20:48:57,111 - INFO [Admin,0 56 web::log_request] 200 GET /notifications?last_notification=1710708536.690019 (::1) 3.86ms
+2024-03-17 20:49:00,490 - INFO [Admin,0 56 web::log_request] 200 GET /contest/1/tasks (::1) 12.17ms
+2024-03-17 20:49:00,757 - INFO [Admin,0 52 web::log_request] 200 GET /notifications?last_notification=1710708540.481309 (::1) 3.36ms
+2024-03-17 20:49:03,363 - INFO [Admin,0 53 web::log_request] 200 GET /notifications?last_notification=1710708502.162636 (::1) 3.22ms
+2024-03-17 20:49:20,872 - INFO [Admin,0 56 web::log_request] 304 GET /notifications?last_notification=1710708502.162636 (::1) 9.96ms
+2024-03-17 20:49:35,042 - INFO [Admin,0 54 web::log_request] 200 GET /notifications?last_notification=1710708502.162636 (::1) 10.54ms
+2024-03-17 20:49:37,275 - INFO [Admin,0 54 web::log_request] 302 POST /task/1 (::1) 12.70ms
+2024-03-17 20:49:37,543 - INFO [Admin,0 54 web::log_request] 200 GET /task/1 (::1) 26.68ms
+2024-03-17 20:49:37,930 - INFO [Admin,0 54 web::log_request] 200 GET /notifications?last_notification=1710708577.52845 (::1) 3.99ms
+2024-03-17 20:49:53,528 - INFO [Admin,0 47 web::log_request] 200 GET /notifications?last_notification=1710708577.52845 (::1) 4.99ms
+2024-03-17 20:50:03,874 - INFO [Admin,0 56 web::log_request] 200 GET /task/1 (::1) 53.48ms
+2024-03-17 20:50:04,264 - INFO [Admin,0 47 web::log_request] 200 GET /notifications?last_notification=1710708603.82705 (::1) 3.29ms
+2024-03-17 20:50:08,929 - INFO [Admin,0 47 web::log_request] 200 GET /dataset/1 (::1) 102.92ms
+2024-03-17 20:50:09,334 - INFO [Admin,0 57 web::log_request] 200 GET /notifications?last_notification=1710708608.846771 (::1) 16.02ms
+2024-03-17 20:50:16,936 - INFO [Admin,0 57 web::log_request] 200 GET /dataset/1/testcases/download (::1) 15.73ms
+2024-03-17 20:50:17,195 - INFO [Admin,0 57 web::log_request] 200 GET /notifications?last_notification=1710708616.92618 (::1) 2.90ms
+2024-03-17 20:50:19,536 - INFO [Admin,0 58 web::log_request] 200 GET /dataset/1/testcases/add_multiple (::1) 12.37ms
+2024-03-17 20:50:19,807 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708619.527823 (::1) 3.79ms
+2024-03-17 20:50:40,167 - INFO [Admin,0 54 web::log_request] 304 GET /notifications?last_notification=1710708603.82705 (::1) 3.20ms
+2024-03-17 20:50:47,011 - INFO [Admin,0 58 web::log_request] 200 GET /task/1/attachments/add (::1) 12.35ms
+2024-03-17 20:50:47,271 - INFO [Admin,0 56 web::log_request] 200 GET /notifications?last_notification=1710708647.002583 (::1) 2.96ms
+2024-03-17 20:50:54,783 - INFO [Admin,0 54 web::log_request] 302 POST /task/1/attachments/add (::1) 23.60ms
+2024-03-17 20:50:55,050 - INFO [Admin,0 56 web::log_request] 200 GET /task/1 (::1) 22.33ms
+2024-03-17 20:50:55,439 - INFO [Admin,0 54 web::log_request] 200 GET /notifications?last_notification=1710708655.032132 (::1) 4.71ms
+2024-03-17 20:51:00,588 - INFO [Admin,0 59 web::log_request] 302 POST /task/1 (::1) 17.83ms
+2024-03-17 20:51:00,859 - INFO [Admin,0 57 web::log_request] 200 GET /task/1 (::1) 18.84ms
+2024-03-17 20:51:01,250 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708660.844769 (::1) 3.15ms
+2024-03-17 20:51:12,169 - INFO [Admin,0 47 web::log_request] 200 DELETE /task/1/attachment/1 (::1) 13.96ms
+2024-03-17 20:51:12,438 - INFO [Admin,0 57 web::log_request] 200 GET /task/1 (::1) 18.17ms
+2024-03-17 20:51:12,833 - INFO [Admin,0 58 web::log_request] 200 GET /notifications?last_notification=1710708672.424049 (::1) 2.90ms
+2024-03-17 20:51:25,208 - INFO [Admin,0 59 web::log_request] 302 POST /task/1 (::1) 32.21ms
+2024-03-17 20:51:25,477 - INFO [Admin,0 54 web::log_request] 200 GET /task/1 (::1) 25.91ms
+2024-03-17 20:51:25,872 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708685.455684 (::1) 3.02ms
+2024-03-17 20:51:35,874 - INFO [Admin,0 58 web::log_request] 200 GET /dataset/1/managers/add (::1) 11.48ms
+2024-03-17 20:51:36,129 - INFO [Admin,0 57 web::log_request] 200 GET /notifications?last_notification=1710708695.867697 (::1) 3.20ms
+2024-03-17 20:51:47,895 - INFO [Admin,0 54 web::log_request] 302 POST /task/1 (::1) 38.90ms
+2024-03-17 20:51:48,170 - INFO [Admin,0 56 web::log_request] 200 GET /task/1 (::1) 35.02ms
+2024-03-17 20:51:48,558 - INFO [Admin,0 58 web::log_request] 200 GET /notifications?last_notification=1710708708.152407 (::1) 4.49ms
+2024-03-17 20:52:04,381 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708708.152407 (::1) 4.80ms
+2024-03-17 20:52:19,533 - INFO [Admin,0 56 web::log_request] 304 GET /notifications?last_notification=1710708708.152407 (::1) 3.36ms
+2024-03-17 20:52:34,835 - INFO [Admin,0 54 web::log_request] 200 GET /notifications?last_notification=1710708708.152407 (::1) 4.02ms
+2024-03-17 20:52:49,547 - INFO [Admin,0 54 web::log_request] 304 GET /notifications?last_notification=1710708708.152407 (::1) 3.68ms
+2024-03-17 20:53:04,401 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708708.152407 (::1) 15.81ms
+2024-03-17 20:53:35,541 - INFO [Admin,0 59 web::log_request] 304 GET /notifications?last_notification=1710708708.152407 (::1) 11.22ms
+2024-03-17 20:53:59,308 - INFO [Admin,0 60 web::log_request] 200 GET /notifications?last_notification=1710708708.152407 (::1) 10.62ms
+2024-03-17 20:54:03,916 - INFO [Admin,0 60 web::log_request] 304 GET /notifications?last_notification=1710708708.152407 (::1) 18.18ms
+2024-03-17 20:54:07,630 - INFO [Admin,0 61 web::log_request] 200 DELETE /dataset/1/testcase/1/delete (::1) 24.30ms
+2024-03-17 20:54:07,943 - INFO [Admin,0 60 web::log_request] 200 GET /task/1 (::1) 54.42ms
+2024-03-17 20:54:08,682 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708847.894517 (::1) 4.94ms
+2024-03-17 20:54:10,446 - INFO [Admin,0 62 web::log_request] 200 GET /dataset/1/testcases/add (::1) 19.80ms
+2024-03-17 20:54:10,723 - INFO [Admin,0 62 web::log_request] 200 GET /notifications?last_notification=1710708850.434801 (::1) 3.11ms
+2024-03-17 20:54:21,367 - INFO [Admin,0 62 web::log_request] 302 POST /dataset/1/testcases/add (::1) 22.10ms
+2024-03-17 20:54:21,629 - INFO [Admin,0 61 web::log_request] 200 GET /task/1 (::1) 17.50ms
+2024-03-17 20:54:22,032 - INFO [Admin,0 63 web::log_request] 200 GET /notifications?last_notification=1710708861.616225 (::1) 3.43ms
+2024-03-17 20:54:25,786 - INFO [Admin,0 61 web::log_request] 302 POST /task/1 (::1) 16.97ms
+2024-03-17 20:54:26,046 - INFO [Admin,0 63 web::log_request] 200 GET /task/1 (::1) 18.13ms
+2024-03-17 20:54:26,439 - INFO [Admin,0 60 web::log_request] 200 GET /notifications?last_notification=1710708866.032194 (::1) 3.19ms
+2024-03-17 20:54:30,025 - INFO [Admin,0 64 web::log_request] 200 GET /dataset/1/clone (::1) 14.56ms
+2024-03-17 20:54:30,414 - INFO [Admin,0 64 web::log_request] 200 GET /notifications?last_notification=1710708870.016229 (::1) 5.11ms
+2024-03-17 20:54:49,477 - INFO [Admin,0 61 web::log_request] 200 GET /notifications?last_notification=1710708866.032194 (::1) 3.51ms
+2024-03-17 20:54:58,335 - INFO [Admin,0 64 web::log_request] 302 POST /task/1 (::1) 19.34ms
+2024-03-17 20:54:58,605 - INFO [Admin,0 63 web::log_request] 200 GET /task/1 (::1) 26.38ms
+2024-03-17 20:54:58,999 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708898.583628 (::1) 4.40ms
+2024-03-17 20:55:01,318 - INFO [Admin,0 62 web::log_request] 200 GET / (::1) 6.65ms
+2024-03-17 20:55:01,718 - INFO [Admin,0 64 web::log_request] 200 GET /notifications?last_notification=1710708901.313528 (::1) 9.68ms
+2024-03-17 20:55:03,138 - INFO [Admin,0 63 web::log_request] 200 GET /contest/1 (::1) 10.49ms
+2024-03-17 20:55:03,533 - INFO [Admin,0 60 web::log_request] 200 GET /notifications?last_notification=1710708903.13073 (::1) 2.99ms
+2024-03-17 20:55:18,543 - INFO [Admin,0 63 web::log_request] 304 GET /notifications?last_notification=1710708903.13073 (::1) 2.79ms
+2024-03-17 20:55:20,953 - INFO [Admin,0 61 web::log_request] 200 GET / (::1) 7.04ms
+2024-03-17 20:55:21,349 - INFO [Admin,0 62 web::log_request] 200 GET /notifications?last_notification=1710708920.948403 (::1) 7.68ms
+2024-03-17 20:55:25,030 - INFO [Admin,0 64 web::log_request] 200 GET /task/1 (::1) 16.75ms
+2024-03-17 20:55:25,419 - INFO [Admin,0 60 web::log_request] 200 GET /notifications?last_notification=1710708925.017083 (::1) 5.38ms
+2024-03-17 20:55:40,433 - INFO [Admin,0 61 web::log_request] 304 GET /notifications?last_notification=1710708925.017083 (::1) 4.77ms
+2024-03-17 20:55:56,831 - INFO [Admin,0 64 web::log_request] 304 GET /notifications?last_notification=1710708925.017083 (::1) 2.90ms
+2024-03-17 20:56:11,384 - INFO [Admin,0 59 web::log_request] 200 GET /notifications?last_notification=1710708925.017083 (::1) 3.32ms
+2024-03-17 20:56:26,868 - INFO [Admin,0 60 web::log_request] 304 GET /notifications?last_notification=1710708925.017083 (::1) 9.74ms
+2024-03-17 20:56:41,385 - INFO [Admin,0 64 web::log_request] 200 GET /notifications?last_notification=1710708925.017083 (::1) 10.71ms
+2024-03-17 20:57:36,315 - INFO [Admin,0 65 web::log_request] 304 GET /notifications?last_notification=1710708925.017083 (::1) 19.16ms
+2024-03-17 20:57:46,984 - INFO [Admin,0 66 web::log_request] 200 GET /notifications?last_notification=1710708925.017083 (::1) 11.56ms
+2024-03-17 20:57:48,418 - INFO [Admin,0 67 web::log_request] 200 GET /contest/1/overview (::1) 23.78ms
+2024-03-17 20:57:48,813 - INFO [Admin,0 67 web::log_request] 200 GET /notifications?last_notification=1710709068.410199 (::1) 7.53ms
+2024-03-17 20:57:50,180 - INFO [Admin,0 68 web::log_request] 200 GET / (::1) 10.26ms
+2024-03-17 20:57:50,577 - INFO [Admin,0 66 web::log_request] 200 GET /notifications?last_notification=1710709070.173775 (::1) 7.06ms
+2024-03-17 20:57:55,552 - INFO [Admin,0 69 web::log_request] 200 GET /tasks (::1) 10.48ms
+2024-03-17 20:57:55,823 - INFO [Admin,0 67 web::log_request] 200 GET /notifications?last_notification=1710709075.544149 (::1) 3.42ms
+2024-03-17 20:57:59,158 - INFO [Admin,0 69 web::log_request] 302 POST /tasks (::1) 2.49ms
+2024-03-17 20:57:59,434 - INFO [Admin,0 68 web::log_request] 200 GET /tasks/1/remove (::1) 34.27ms
+2024-03-17 20:57:59,704 - INFO [Admin,0 68 web::log_request] 200 GET /notifications?last_notification=1710709079.411366 (::1) 4.35ms
+2024-03-17 20:58:00,496 - INFO [Admin,0 69 web::log_request] 200 DELETE /tasks/1/remove (::1) 26.42ms
+2024-03-17 20:58:00,770 - INFO [Admin,0 68 web::log_request] 200 GET /tasks (::1) 7.59ms
+2024-03-17 20:58:01,030 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709080.765574 (::1) 3.70ms
+2024-03-17 20:58:03,396 - INFO [Admin,0 71 web::log_request] 302 POST /tasks (::1) 2.54ms
+2024-03-17 20:58:03,684 - INFO [Admin,0 70 web::log_request] 200 GET /tasks/2/remove (::1) 40.77ms
+2024-03-17 20:58:03,955 - INFO [Admin,0 69 web::log_request] 200 GET /notifications?last_notification=1710709083.676691 (::1) 6.02ms
+2024-03-17 20:58:05,373 - INFO [Admin,0 68 web::log_request] 200 DELETE /tasks/2/remove (::1) 15.38ms
+2024-03-17 20:58:05,630 - INFO [Admin,0 71 web::log_request] 200 GET /tasks (::1) 6.09ms
+2024-03-17 20:58:05,899 - INFO [Admin,0 65 web::log_request] 200 GET /notifications?last_notification=1710709085.626544 (::1) 2.86ms
+2024-03-17 20:58:06,539 - INFO [Admin,0 68 web::log_request] 200 GET /contests (::1) 9.39ms
+2024-03-17 20:58:06,813 - INFO [Admin,0 69 web::log_request] 200 GET /notifications?last_notification=1710709086.531651 (::1) 2.87ms
+2024-03-17 20:58:08,556 - INFO [Admin,0 65 web::log_request] 302 POST /contests (::1) 2.62ms
+2024-03-17 20:58:08,843 - INFO [Admin,0 67 web::log_request] 200 GET /contests/1/remove (::1) 46.38ms
+2024-03-17 20:58:09,114 - INFO [Admin,0 71 web::log_request] 200 GET /notifications?last_notification=1710709088.815827 (::1) 4.78ms
+2024-03-17 20:58:09,886 - INFO [Admin,0 65 web::log_request] 200 DELETE /contests/1/remove (::1) 15.91ms
+2024-03-17 20:58:09,891 - ERROR [Admin,0 72 rpc::process_incoming_response] ProxyService,0 signaled RPC for method reinitialize was unsuccessful: KeyError: 'Contest not found.'
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/rpc.py", line 411, in process_incoming_request
+    response["__data"] = method(**request["__data"])
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ProxyService.py", line 450, in reinitialize
+    self.initialize()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ProxyService.py", line 328, in initialize
+    raise KeyError("Contest not found.")
+KeyError: 'Contest not found.'
+.
+2024-03-17 20:58:10,142 - INFO [Admin,0 70 web::log_request] 200 GET /contests (::1) 9.20ms
+2024-03-17 20:58:10,399 - INFO [Admin,0 67 web::log_request] 200 GET /notifications?last_notification=1710709090.136145 (::1) 3.01ms
+2024-03-17 20:58:11,387 - INFO [Admin,0 67 web::log_request] 200 GET /admins (::1) 7.09ms
+2024-03-17 20:58:11,658 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709091.382985 (::1) 3.12ms
+2024-03-17 20:58:13,722 - INFO [Admin,0 65 web::log_request] 200 GET /admins/add (::1) 24.18ms
+2024-03-17 20:58:14,000 - INFO [Admin,0 71 web::log_request] 200 GET /notifications?last_notification=1710709093.700111 (::1) 4.61ms
+2024-03-17 20:58:23,159 - INFO [Admin,0 68 web::log_request] 302 POST /admins/add (::1) 281.45ms
+2024-03-17 20:58:23,412 - INFO [Admin,0 71 web::log_request] 200 GET /admins (::1) 7.09ms
+2024-03-17 20:58:23,684 - INFO [Admin,0 69 web::log_request] 200 GET /notifications?last_notification=1710709103.406946 (::1) 4.42ms
+2024-03-17 20:58:24,886 - INFO [Admin,0 71 web::log_request] 200 GET /admin/3 (::1) 9.87ms
+2024-03-17 20:58:25,157 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709104.878554 (::1) 3.39ms
+2024-03-17 20:58:34,670 - INFO [Admin,0 65 web::log_request] 200 DELETE /admin/3 (::1) 20.23ms
+2024-03-17 20:58:34,930 - INFO [Admin,0 67 web::log_request] 200 GET /admins (::1) 6.98ms
+2024-03-17 20:58:35,193 - INFO [Admin,0 67 web::log_request] 200 GET /notifications?last_notification=1710709114.925271 (::1) 2.86ms
+2024-03-17 20:58:38,073 - INFO [Admin,0 65 web::log_request] 200 GET /admin/1 (::1) 6.42ms
+2024-03-17 20:58:38,339 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709118.068893 (::1) 2.83ms
+2024-03-17 20:58:39,234 - INFO [Admin,0 67 web::log_request] 200 DELETE /admin/1 (::1) 20.93ms
+2024-03-17 20:58:39,493 - INFO [Admin,0 69 web::log_request] 200 GET /admins (::1) 6.89ms
+2024-03-17 20:58:39,751 - INFO [Admin,0 68 web::log_request] 200 GET /notifications?last_notification=1710709119.488374 (::1) 3.02ms
+2024-03-17 20:58:41,089 - INFO [Admin,0 65 web::log_request] 200 GET /admin/2 (::1) 6.81ms
+2024-03-17 20:58:41,351 - INFO [Admin,0 69 web::log_request] 200 GET /notifications?last_notification=1710709121.08535 (::1) 2.88ms
+2024-03-17 20:58:43,803 - INFO [Admin,0 68 web::log_request] 200 GET /admins/add (::1) 11.55ms
+2024-03-17 20:58:44,082 - INFO [Admin,0 69 web::log_request] 200 GET /notifications?last_notification=1710709123.794912 (::1) 18.87ms
+2024-03-17 20:58:52,992 - INFO [Admin,0 70 web::log_request] 302 POST /admins/add (::1) 283.93ms
+2024-03-17 20:58:53,242 - INFO [Admin,0 69 web::log_request] 200 GET /admins (::1) 8.55ms
+2024-03-17 20:58:53,508 - INFO [Admin,0 71 web::log_request] 200 GET /notifications?last_notification=1710709133.236069 (::1) 3.23ms
+2024-03-17 20:58:54,968 - INFO [Admin,0 70 web::log_request] 200 GET /admin/2 (::1) 6.96ms
+2024-03-17 20:58:55,231 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709134.964272 (::1) 3.17ms
+2024-03-17 20:58:56,047 - INFO [Admin,0 68 web::log_request] 200 DELETE /admin/2 (::1) 13.19ms
+2024-03-17 20:58:56,298 - INFO [Admin,0 65 web::log_request] 302 GET /admins (::1) 1.98ms
+2024-03-17 20:58:56,552 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fadmins (::1) 11.92ms
+2024-03-17 20:59:01,040 - INFO [Admin,0 68 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 20:59:01,042 - INFO [Admin,0 68 web::log_request] 302 POST /login (::1) 267.25ms
+2024-03-17 20:59:01,284 - INFO [Admin,0 71 web::log_request] 302 GET /admins (::1) 0.44ms
+2024-03-17 20:59:01,533 - INFO [Admin,0 70 web::log_request] 200 GET /login?next=%2Fadmins (::1) 5.51ms
+2024-03-17 20:59:07,069 - INFO [Admin,0 65 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 20:59:07,070 - INFO [Admin,0 65 web::log_request] 302 POST /login (::1) 267.97ms
+2024-03-17 20:59:07,321 - INFO [Admin,0 71 web::log_request] 200 GET /admins (::1) 7.26ms
+2024-03-17 20:59:07,579 - INFO [Admin,0 71 web::log_request] 302 GET /notifications?last_notification=1710709147.316178 (::1) 2.93ms
+2024-03-17 20:59:07,830 - INFO [Admin,0 68 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709147.316178 (::1) 4.52ms
+2024-03-17 20:59:11,949 - INFO [Admin,0 65 web::log_request] 302 GET / (::1) 0.37ms
+2024-03-17 20:59:12,195 - INFO [Admin,0 70 web::log_request] 200 GET /login?next=%2F (::1) 4.29ms
+2024-03-17 20:59:13,726 - WARNING [Admin,0 67 main::post] Nonexistent admin account: nigga
+2024-03-17 20:59:13,728 - INFO [Admin,0 67 web::log_request] 302 POST /login (::1) 5.59ms
+2024-03-17 20:59:13,986 - INFO [Admin,0 65 web::log_request] 200 GET /login?login_error=true&next=%2F (::1) 8.49ms
+2024-03-17 20:59:15,880 - INFO [Admin,0 67 web::log_request] 302 GET / (::1) 0.51ms
+2024-03-17 20:59:16,128 - INFO [Admin,0 68 web::log_request] 200 GET /login?next=%2F (::1) 5.55ms
+2024-03-17 20:59:17,405 - WARNING [Admin,0 69 main::post] Nonexistent admin account: nigga
+2024-03-17 20:59:17,406 - INFO [Admin,0 69 web::log_request] 302 POST /login (::1) 2.61ms
+2024-03-17 20:59:17,656 - INFO [Admin,0 67 web::log_request] 304 GET /login?login_error=true&next=%2F (::1) 5.62ms
+2024-03-17 20:59:19,022 - WARNING [Admin,0 69 web::log_request] 405 GET /logout (::1) 18.02ms
+2024-03-17 20:59:19,275 - INFO [Admin,0 67 web::log_request] 302 GET /notifications?last_notification=1710709159.004438 (::1) 0.41ms
+2024-03-17 20:59:19,521 - INFO [Admin,0 65 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709159.004438 (::1) 6.37ms
+2024-03-17 20:59:22,844 - INFO [Admin,0 68 web::log_request] 200 GET / (::1) 6.00ms
+2024-03-17 20:59:23,224 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709162.840217 (::1) 3.97ms
+2024-03-17 20:59:25,140 - INFO [Admin,0 68 web::log_request] 200 GET /contests (::1) 6.11ms
+2024-03-17 20:59:25,400 - INFO [Admin,0 68 web::log_request] 302 GET /notifications?last_notification=1710709165.135729 (::1) 0.40ms
+2024-03-17 20:59:25,651 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709165.135729 (::1) 4.44ms
+2024-03-17 20:59:26,202 - INFO [Admin,0 67 web::log_request] 302 GET /contests/add (::1) 0.39ms
+2024-03-17 20:59:26,452 - INFO [Admin,0 71 web::log_request] 200 GET /login?next=%2Fcontests%2Fadd (::1) 5.76ms
+2024-03-17 20:59:28,111 - WARNING [Admin,0 71 web::log_request] 405 GET /logout (::1) 6.75ms
+2024-03-17 20:59:28,366 - INFO [Admin,0 71 web::log_request] 302 GET /notifications?last_notification=1710709168.105097 (::1) 0.41ms
+2024-03-17 20:59:28,620 - INFO [Admin,0 65 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709168.105097 (::1) 7.80ms
+2024-03-17 20:59:29,646 - INFO [Admin,0 71 web::log_request] 302 POST /logout (::1) 0.54ms
+2024-03-17 20:59:29,890 - INFO [Admin,0 71 web::log_request] 302 GET / (::1) 0.43ms
+2024-03-17 20:59:30,144 - INFO [Admin,0 65 web::log_request] 200 GET /login?next=%2F (::1) 10.37ms
+2024-03-17 20:59:32,727 - INFO [Admin,0 71 web::log_request] 302 GET / (::1) 0.40ms
+2024-03-17 20:59:32,977 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2F (::1) 4.55ms
+2024-03-17 20:59:37,279 - INFO [Admin,0 67 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 20:59:37,281 - INFO [Admin,0 67 web::log_request] 302 POST /login (::1) 267.62ms
+2024-03-17 20:59:37,536 - INFO [Admin,0 65 web::log_request] 200 GET / (::1) 6.99ms
+2024-03-17 20:59:37,919 - INFO [Admin,0 65 web::log_request] 302 GET /notifications?last_notification=1710709177.532117 (::1) 0.55ms
+2024-03-17 20:59:38,173 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709177.532117 (::1) 5.79ms
+2024-03-17 20:59:39,038 - INFO [Admin,0 67 web::log_request] 200 GET /contests (::1) 12.90ms
+2024-03-17 20:59:39,298 - INFO [Admin,0 67 web::log_request] 302 GET /notifications?last_notification=1710709179.027722 (::1) 2.32ms
+2024-03-17 20:59:39,553 - INFO [Admin,0 68 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709179.027722 (::1) 11.71ms
+2024-03-17 20:59:40,415 - INFO [Admin,0 68 web::log_request] 302 GET /contests/add (::1) 0.55ms
+2024-03-17 20:59:40,666 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fcontests%2Fadd (::1) 4.64ms
+2024-03-17 21:00:08,130 - INFO [Admin,0 68 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 21:00:08,132 - INFO [Admin,0 68 web::log_request] 302 POST /login (::1) 276.41ms
+2024-03-17 21:00:08,386 - INFO [Admin,0 70 web::log_request] 200 GET /contests/add (::1) 8.30ms
+2024-03-17 21:00:08,660 - INFO [Admin,0 68 web::log_request] 200 GET /notifications?last_notification=1710709208.380203 (::1) 4.55ms
+2024-03-17 21:00:10,038 - INFO [Admin,0 65 web::log_request] 302 GET /contests/add (::1) 0.38ms
+2024-03-17 21:00:10,288 - INFO [Admin,0 67 web::log_request] 200 GET /login?next=%2Fcontests%2Fadd (::1) 6.10ms
+2024-03-17 21:00:15,696 - INFO [Admin,0 67 web::log_request] 302 GET / (::1) 0.38ms
+2024-03-17 21:00:15,953 - INFO [Admin,0 65 web::log_request] 200 GET /login?next=%2F (::1) 12.13ms
+2024-03-17 21:00:30,393 - INFO [Admin,0 71 web::log_request] 302 GET / (::1) 0.37ms
+2024-03-17 21:00:30,646 - INFO [Admin,0 71 web::log_request] 200 GET /login?next=%2F (::1) 5.33ms
+2024-03-17 21:00:34,307 - INFO [Admin,0 67 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 21:00:34,309 - INFO [Admin,0 67 web::log_request] 302 POST /login (::1) 290.84ms
+2024-03-17 21:00:34,564 - INFO [Admin,0 71 web::log_request] 200 GET / (::1) 7.05ms
+2024-03-17 21:00:34,963 - INFO [Admin,0 71 web::log_request] 200 GET /notifications?last_notification=1710709234.559926 (::1) 8.75ms
+2024-03-17 21:00:37,614 - INFO [Admin,0 71 web::log_request] 200 GET /admins (::1) 8.53ms
+2024-03-17 21:00:37,886 - INFO [Admin,0 65 web::log_request] 200 GET /notifications?last_notification=1710709237.60809 (::1) 9.80ms
+2024-03-17 21:00:39,689 - INFO [Admin,0 65 web::log_request] 200 GET /admin/4 (::1) 8.10ms
+2024-03-17 21:00:39,950 - INFO [Admin,0 67 web::log_request] 200 GET /notifications?last_notification=1710709239.684307 (::1) 2.88ms
+2024-03-17 21:00:40,835 - WARNING [Admin,0 67 web::log_request] 403 DELETE /admin/4 (::1) 5.55ms
+2024-03-17 21:00:43,741 - WARNING [Admin,0 67 web::log_request] 403 DELETE /admin/4 (::1) 8.07ms
+2024-03-17 21:00:44,657 - INFO [Admin,0 69 web::log_request] 200 DELETE /admin/4 (::1) 11.34ms
+2024-03-17 21:00:44,917 - INFO [Admin,0 69 web::log_request] 302 GET /admins (::1) 10.62ms
+2024-03-17 21:00:45,166 - INFO [Admin,0 67 web::log_request] 200 GET /login?next=%2Fadmins (::1) 6.44ms
+2024-03-17 21:00:45,199 - WARNING [Admin,0 69 web::log_request] 403 DELETE /admin/4 (::1) 5.76ms
+2024-03-17 21:01:00,266 - INFO [Admin,0 70 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 21:01:00,268 - INFO [Admin,0 70 web::log_request] 302 POST /login (::1) 273.71ms
+2024-03-17 21:01:00,515 - INFO [Admin,0 69 web::log_request] 302 GET /admins (::1) 0.44ms
+2024-03-17 21:01:00,770 - INFO [Admin,0 68 web::log_request] 200 GET /login?next=%2Fadmins (::1) 6.25ms
+2024-03-17 21:01:16,837 - INFO [Admin,0 68 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 21:01:16,839 - INFO [Admin,0 68 web::log_request] 302 POST /login (::1) 305.20ms
+2024-03-17 21:01:17,083 - INFO [Admin,0 70 web::log_request] 302 GET /admins (::1) 0.42ms
+2024-03-17 21:01:17,330 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fadmins (::1) 4.71ms
+2024-03-17 21:01:32,602 - INFO [Admin,0 71 main::post] Admin logged in: 'test' from IP ::1.
+2024-03-17 21:01:32,604 - INFO [Admin,0 71 web::log_request] 302 POST /login (::1) 280.69ms
+2024-03-17 21:01:32,856 - INFO [Admin,0 68 web::log_request] 302 GET /admins (::1) 0.59ms
+2024-03-17 21:01:33,103 - INFO [Admin,0 65 web::log_request] 200 GET /login?next=%2Fadmins (::1) 4.72ms
+2024-03-17 21:01:52,218 - INFO [Admin,0 73 main::post] Admin logged in: 'tutorial' from IP ::1.
+2024-03-17 21:01:52,219 - INFO [Admin,0 73 web::log_request] 302 POST /login (::1) 270.75ms
+2024-03-17 21:01:52,804 - INFO [Admin,0 65 web::log_request] 302 GET /admins (::1) 0.42ms
+2024-03-17 21:01:53,062 - INFO [Admin,0 65 web::log_request] 200 GET /login?next=%2Fadmins (::1) 10.85ms
+2024-03-17 21:01:54,866 - WARNING [Admin,0 71 web::log_request] 405 GET /logout (::1) 11.44ms
+2024-03-17 21:01:55,149 - INFO [Admin,0 69 web::log_request] 200 GET /notifications?last_notification=1710709314.855379 (::1) 5.01ms
+2024-03-17 21:01:59,070 - INFO [Admin,0 73 web::log_request] 200 GET / (::1) 8.34ms
+2024-03-17 21:01:59,451 - INFO [Admin,0 71 web::log_request] 302 GET /notifications?last_notification=1710709319.064193 (::1) 0.43ms
+2024-03-17 21:01:59,705 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709319.064193 (::1) 5.45ms
+2024-03-17 21:02:01,971 - INFO [Admin,0 70 web::log_request] 200 GET /contests/add (::1) 6.23ms
+2024-03-17 21:02:02,244 - INFO [Admin,0 65 web::log_request] 302 GET /notifications?last_notification=1710709321.967246 (::1) 0.40ms
+2024-03-17 21:02:02,492 - INFO [Admin,0 68 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709321.967246 (::1) 7.25ms
+2024-03-17 21:02:04,490 - INFO [Admin,0 68 web::log_request] 200 GET /admins (::1) 8.00ms
+2024-03-17 21:02:04,760 - INFO [Admin,0 70 web::log_request] 302 GET /notifications?last_notification=1710709324.484759 (::1) 0.41ms
+2024-03-17 21:02:05,009 - INFO [Admin,0 68 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709324.484759 (::1) 5.73ms
+2024-03-17 21:02:07,017 - INFO [Admin,0 73 web::log_request] 302 GET /contests/add (::1) 0.38ms
+2024-03-17 21:02:07,270 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fcontests%2Fadd (::1) 4.30ms
+2024-03-17 21:02:10,435 - INFO [Admin,0 68 web::log_request] 200 GET /contests (::1) 10.65ms
+2024-03-17 21:02:10,716 - INFO [Admin,0 71 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 16.86ms
+2024-03-17 21:02:22,866 - WARNING [Admin,0 68 web::log_request] 404 GET /favicon.ico (::1) 0.54ms
+2024-03-17 21:02:25,377 - INFO [Admin,0 70 web::log_request] 302 GET / (::1) 0.38ms
+2024-03-17 21:02:25,960 - INFO [Admin,0 73 web::log_request] 200 GET /login?next=%2F (::1) 4.90ms
+2024-03-17 21:02:26,524 - INFO [Admin,0 71 web::log_request] 302 GET /notifications?last_notification=1710709330.428221 (::1) 0.39ms
+2024-03-17 21:02:26,780 - INFO [Admin,0 71 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709330.428221 (::1) 5.73ms
+2024-03-17 21:02:41,208 - INFO [Admin,0 69 main::post] Admin logged in: 'tutorial' from IP ::1.
+2024-03-17 21:02:41,209 - INFO [Admin,0 69 web::log_request] 302 POST /login (::1) 270.21ms
+2024-03-17 21:02:41,382 - INFO [Admin,0 68 web::log_request] 302 GET /notifications?last_notification=1710709330.428221 (::1) 0.42ms
+2024-03-17 21:02:41,467 - INFO [Admin,0 70 web::log_request] 200 GET / (::1) 13.80ms
+2024-03-17 21:02:41,632 - INFO [Admin,0 70 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709330.428221 (::1) 5.73ms
+2024-03-17 21:02:42,767 - INFO [Admin,0 65 web::log_request] 200 GET /notifications?last_notification=1710709361.461955 (::1) 15.40ms
+2024-03-17 21:02:44,693 - INFO [Admin,0 71 web::log_request] 200 GET /contests/add (::1) 6.29ms
+2024-03-17 21:02:45,014 - INFO [Admin,0 74 web::log_request] 200 GET /notifications?last_notification=1710709364.688889 (::1) 4.01ms
+2024-03-17 21:02:47,035 - INFO [Admin,0 70 web::log_request] 200 GET /contests (::1) 14.88ms
+2024-03-17 21:02:47,347 - INFO [Admin,0 75 web::log_request] 200 GET /notifications?last_notification=1710709367.028939 (::1) 4.13ms
+2024-03-17 21:02:56,522 - INFO [Admin,0 73 web::log_request] 302 GET /notifications?last_notification=1710709330.428221 (::1) 0.56ms
+2024-03-17 21:02:56,773 - INFO [Admin,0 69 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709330.428221 (::1) 6.32ms
+2024-03-17 21:03:11,376 - INFO [Admin,0 70 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 3.00ms
+2024-03-17 21:03:27,168 - INFO [Admin,0 70 web::log_request] 302 GET /notifications?last_notification=1710709330.428221 (::1) 0.40ms
+2024-03-17 21:03:27,746 - INFO [Admin,0 75 web::log_request] 304 GET /login?next=%2Fnotifications%3Flast_notification%3D1710709330.428221 (::1) 5.30ms
+2024-03-17 21:04:27,839 - INFO [Admin,0 75 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 3.12ms
+2024-03-17 21:05:29,200 - INFO [Admin,0 76 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 20.07ms
+2024-03-17 21:06:17,769 - INFO [Admin,0 77 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 11.58ms
+2024-03-17 21:06:26,764 - INFO [Admin,0 78 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 12.76ms
+2024-03-17 21:06:41,732 - INFO [Admin,0 76 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 11.20ms
+2024-03-17 21:06:56,926 - INFO [Admin,0 79 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 10.30ms
+2024-03-17 21:07:11,704 - INFO [Admin,0 78 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 2.80ms
+2024-03-17 21:07:36,215 - INFO [Admin,0 78 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 3.34ms
+2024-03-17 21:08:09,057 - INFO [Admin,0 80 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 5.16ms
+2024-03-17 21:08:11,367 - INFO [Admin,0 80 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 3.09ms
+2024-03-17 21:08:26,757 - INFO [Admin,0 81 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 5.16ms
+2024-03-17 21:08:41,547 - INFO [Admin,0 82 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 10.94ms
+2024-03-17 21:08:56,702 - INFO [Admin,0 82 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 10.22ms
+2024-03-17 21:09:36,183 - INFO [Admin,0 83 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 10.21ms
+2024-03-17 21:10:35,535 - INFO [Admin,0 84 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 12.39ms
+2024-03-17 21:11:35,934 - INFO [Admin,0 85 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 10.80ms
+2024-03-17 21:12:34,091 - INFO [Admin,0 86 web::log_request] 200 GET /?i=1 (::1) 24.57ms
+2024-03-17 21:12:34,846 - INFO [Admin,0 85 web::log_request] 200 GET /notifications?last_notification=1710709954.083955 (::1) 3.45ms
+2024-03-17 21:12:35,770 - INFO [Admin,0 87 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 3.94ms
+2024-03-17 21:12:49,529 - INFO [Admin,0 87 web::log_request] 304 GET /notifications?last_notification=1710709954.083955 (::1) 10.85ms
+2024-03-17 21:12:59,242 - INFO [Admin,0 88 web::log_request] 200 GET / (::1) 12.23ms
+2024-03-17 21:12:59,730 - INFO [Admin,0 86 web::log_request] 200 GET /notifications?last_notification=1710709979.233242 (::1) 4.17ms
+2024-03-17 21:13:15,397 - INFO [Admin,0 86 web::log_request] 304 GET /notifications?last_notification=1710709979.233242 (::1) 32.73ms
+2024-03-17 21:13:30,377 - INFO [Admin,0 89 web::log_request] 304 GET /notifications?last_notification=1710709979.233242 (::1) 6.50ms
+2024-03-17 21:13:35,360 - INFO [Admin,0 90 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 3.08ms
+2024-03-17 21:13:45,382 - INFO [Admin,0 85 web::log_request] 304 GET /notifications?last_notification=1710709979.233242 (::1) 9.20ms
+2024-03-17 21:14:00,380 - INFO [Admin,0 89 web::log_request] 304 GET /notifications?last_notification=1710709979.233242 (::1) 9.90ms
+2024-03-17 21:14:29,962 - INFO [Admin,0 90 web::log_request] 200 GET / (::1) 7.41ms
+2024-03-17 21:14:30,407 - INFO [Admin,0 91 web::log_request] 200 GET /notifications?last_notification=1710710069.956866 (::1) 9.21ms
+2024-03-17 21:14:35,534 - INFO [Admin,0 90 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 13.95ms
+2024-03-17 21:15:36,177 - INFO [Admin,0 92 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 13.05ms
+2024-03-17 21:16:02,795 - INFO [Admin,0 93 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 10.49ms
+2024-03-17 21:16:11,859 - INFO [Admin,0 94 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 15.33ms
+2024-03-17 21:16:26,713 - INFO [Admin,0 95 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 11.21ms
+2024-03-17 21:16:42,183 - INFO [Admin,0 93 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 13.06ms
+2024-03-17 21:16:56,780 - INFO [Admin,0 93 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 4.45ms
+2024-03-17 21:17:11,530 - INFO [Admin,0 94 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 2.96ms
+2024-03-17 21:17:26,445 - INFO [Admin,0 96 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 5.44ms
+2024-03-17 21:17:41,837 - INFO [Admin,0 96 web::log_request] 304 GET /notifications?last_notification=1710709330.428221 (::1) 2.81ms
+2024-03-17 21:17:56,742 - INFO [Admin,0 96 web::log_request] 200 GET /notifications?last_notification=1710709330.428221 (::1) 2.96ms
+2024-03-17 21:18:57,290 - INFO [Admin,0 97 web::log_request] 200 GET / (::1) 21.11ms
+2024-03-17 21:18:57,765 - INFO [Admin,0 98 web::log_request] 200 GET /notifications?last_notification=1710710337.282667 (::1) 15.64ms
+2024-03-17 21:19:02,255 - INFO [Admin,0 97 web::log_request] 200 GET / (::1) 6.02ms
+2024-03-17 21:19:02,688 - INFO [Admin,0 99 web::log_request] 200 GET /notifications?last_notification=1710710342.250916 (::1) 3.47ms
+2024-03-17 21:19:13,383 - INFO [Admin,0 100 web::log_request] 304 GET /notifications?last_notification=1710710337.282667 (::1) 10.53ms
+2024-03-17 21:26:20,400 - INFO [Admin,0 101 web::log_request] 302 GET / (::1) 0.72ms
+2024-03-17 21:26:21,051 - INFO [Admin,0 102 web::log_request] 200 GET /login?next=%2F (::1) 12.20ms
+2024-03-17 21:26:41,159 - INFO [Admin,0 103 web::log_request] 302 GET / (::1) 0.72ms
+2024-03-17 21:26:41,807 - INFO [Admin,0 104 web::log_request] 200 GET /login?next=%2F (::1) 14.16ms
+2024-03-17 21:27:08,231 - INFO [Admin,0 103 main::post] Login error for admin 'test' from IP ::1.
+2024-03-17 21:27:08,233 - INFO [Admin,0 103 web::log_request] 302 POST /login (::1) 280.51ms
+2024-03-17 21:27:08,830 - INFO [Admin,0 102 web::log_request] 200 GET /login?login_error=true&next=%2F (::1) 19.93ms
+2024-03-17 21:27:18,323 - INFO [Admin,0 101 main::post] Login error for admin 'tutorial' from IP ::1.
+2024-03-17 21:27:18,324 - INFO [Admin,0 101 web::log_request] 302 POST /login (::1) 274.04ms
+2024-03-17 21:27:18,567 - INFO [Admin,0 101 web::log_request] 200 GET /login?login_error=true&next=%2F (::1) 4.93ms
+2024-03-17 21:28:26,990 - INFO [Admin,0 105 web::log_request] 200 GET /login?login_error=true&next=%2F (::1) 4.84ms
+2024-03-17 21:30:38,423 - INFO [Admin,0 106 main::post] Admin logged in: 'tutorial' from IP ::1.
+2024-03-17 21:30:38,425 - INFO [Admin,0 106 web::log_request] 302 POST /login (::1) 354.10ms
+2024-03-17 21:30:39,016 - INFO [Admin,0 106 web::log_request] 200 GET / (::1) 23.96ms
+2024-03-17 21:30:39,885 - INFO [Admin,0 107 web::log_request] 200 GET /notifications?last_notification=1710711039.007224 (::1) 27.92ms
+2024-03-17 21:30:42,287 - INFO [Admin,0 108 web::log_request] 200 GET /admins (::1) 8.12ms
+2024-03-17 21:30:42,556 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711042.281083 (::1) 3.45ms
+2024-03-17 21:30:43,500 - INFO [Admin,0 106 web::log_request] 200 GET /admin/7 (::1) 10.31ms
+2024-03-17 21:30:43,767 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711043.492994 (::1) 8.29ms
+2024-03-17 21:30:46,313 - INFO [Admin,0 109 web::log_request] 200 GET /admins/add (::1) 10.45ms
+2024-03-17 21:30:46,580 - INFO [Admin,0 109 web::log_request] 200 GET /notifications?last_notification=1710711046.305325 (::1) 4.07ms
+2024-03-17 21:30:55,472 - INFO [Admin,0 109 web::log_request] 302 POST /admins/add (::1) 273.87ms
+2024-03-17 21:30:55,735 - INFO [Admin,0 110 web::log_request] 200 GET /admins (::1) 7.57ms
+2024-03-17 21:30:56,007 - INFO [Admin,0 109 web::log_request] 200 GET /notifications?last_notification=1710711055.729783 (::1) 3.23ms
+2024-03-17 21:30:58,145 - INFO [Admin,0 109 web::log_request] 302 POST /logout (::1) 0.57ms
+2024-03-17 21:30:58,455 - INFO [Admin,0 111 web::log_request] 200 GET / (::1) 7.62ms
+2024-03-17 21:30:58,848 - INFO [Admin,0 112 web::log_request] 200 GET /notifications?last_notification=1710711058.449755 (::1) 8.30ms
+2024-03-17 21:30:59,929 - INFO [Admin,0 111 web::log_request] 302 POST /logout (::1) 0.51ms
+2024-03-17 21:31:00,180 - INFO [Admin,0 108 web::log_request] 200 GET / (::1) 5.86ms
+2024-03-17 21:31:00,610 - INFO [Admin,0 113 web::log_request] 200 GET /notifications?last_notification=1710711060.176559 (::1) 18.66ms
+2024-03-17 21:31:01,261 - INFO [Admin,0 106 web::log_request] 302 POST /logout (::1) 0.46ms
+2024-03-17 21:31:01,520 - INFO [Admin,0 109 web::log_request] 200 GET / (::1) 7.82ms
+2024-03-17 21:31:01,902 - INFO [Admin,0 107 web::log_request] 302 GET /notifications?last_notification=1710711061.514934 (::1) 0.43ms
+2024-03-17 21:31:02,149 - INFO [Admin,0 106 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711061.514934 (::1) 5.73ms
+2024-03-17 21:31:02,327 - INFO [Admin,0 107 web::log_request] 302 POST /logout (::1) 0.45ms
+2024-03-17 21:31:02,570 - INFO [Admin,0 109 web::log_request] 302 GET / (::1) 0.42ms
+2024-03-17 21:31:02,820 - INFO [Admin,0 113 web::log_request] 200 GET /login?next=%2F (::1) 6.07ms
+2024-03-17 21:31:04,751 - WARNING [Admin,0 106 web::log_request] 405 GET /logout (::1) 7.17ms
+2024-03-17 21:31:05,033 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711064.745031 (::1) 2.80ms
+2024-03-17 21:31:08,322 - INFO [Admin,0 109 web::log_request] 200 GET / (::1) 6.13ms
+2024-03-17 21:31:08,713 - INFO [Admin,0 106 web::log_request] 302 GET /notifications?last_notification=1710711068.317595 (::1) 0.56ms
+2024-03-17 21:31:08,969 - INFO [Admin,0 108 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711068.317595 (::1) 7.68ms
+2024-03-17 21:31:11,129 - INFO [Admin,0 110 web::log_request] 200 GET /contests (::1) 10.08ms
+2024-03-17 21:31:11,397 - INFO [Admin,0 110 web::log_request] 302 GET /notifications?last_notification=1710711071.121664 (::1) 0.59ms
+2024-03-17 21:31:11,646 - INFO [Admin,0 113 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711071.121664 (::1) 6.58ms
+2024-03-17 21:31:13,149 - INFO [Admin,0 106 web::log_request] 200 GET /contests/add (::1) 5.81ms
+2024-03-17 21:31:13,410 - INFO [Admin,0 109 web::log_request] 200 GET /notifications?last_notification=1710711073.145464 (::1) 2.81ms
+2024-03-17 21:31:15,764 - INFO [Admin,0 107 web::log_request] 200 GET / (::1) 7.00ms
+2024-03-17 21:31:16,153 - INFO [Admin,0 108 web::log_request] 200 GET /notifications?last_notification=1710711075.760215 (::1) 4.38ms
+2024-03-17 21:31:18,335 - INFO [Admin,0 110 web::log_request] 200 GET /users/add (::1) 8.06ms
+2024-03-17 21:31:18,603 - INFO [Admin,0 113 web::log_request] 200 GET /notifications?last_notification=1710711078.329514 (::1) 2.81ms
+2024-03-17 21:31:33,614 - INFO [Admin,0 106 web::log_request] 304 GET /notifications?last_notification=1710711078.329514 (::1) 3.05ms
+2024-03-17 21:31:49,118 - INFO [Admin,0 106 web::log_request] 302 GET /notifications?last_notification=1710711078.329514 (::1) 0.56ms
+2024-03-17 21:31:49,373 - INFO [Admin,0 108 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711078.329514 (::1) 8.31ms
+2024-03-17 21:32:03,612 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711078.329514 (::1) 2.79ms
+2024-03-17 21:32:07,454 - INFO [Admin,0 108 web::log_request] 302 POST /users/add (::1) 284.00ms
+2024-03-17 21:32:07,465 - ERROR [Admin,0 114 rpc::process_incoming_response] ProxyService,0 signaled RPC for method reinitialize was unsuccessful: KeyError: 'Contest not found.'
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/rpc.py", line 411, in process_incoming_request
+    response["__data"] = method(**request["__data"])
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ProxyService.py", line 450, in reinitialize
+    self.initialize()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ProxyService.py", line 328, in initialize
+    raise KeyError("Contest not found.")
+KeyError: 'Contest not found.'
+.
+2024-03-17 21:32:07,700 - INFO [Admin,0 113 web::log_request] 302 GET /user/2 (::1) 0.65ms
+2024-03-17 21:32:07,948 - INFO [Admin,0 107 web::log_request] 200 GET /login?next=%2Fuser%2F2 (::1) 4.88ms
+2024-03-17 21:32:13,712 - INFO [Admin,0 109 main::post] Admin logged in: 'admin' from IP ::1.
+2024-03-17 21:32:13,714 - INFO [Admin,0 109 web::log_request] 302 POST /login (::1) 269.04ms
+2024-03-17 21:32:14,018 - INFO [Admin,0 106 web::log_request] 200 GET /user/2 (::1) 53.91ms
+2024-03-17 21:32:14,300 - INFO [Admin,0 108 web::log_request] 200 GET /notifications?last_notification=1710711133.96841 (::1) 4.25ms
+2024-03-17 21:32:29,458 - INFO [Admin,0 109 web::log_request] 302 GET /notifications?last_notification=1710711133.96841 (::1) 0.55ms
+2024-03-17 21:32:29,719 - INFO [Admin,0 115 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711133.96841 (::1) 8.56ms
+2024-03-17 21:32:29,761 - INFO [Admin,0 109 web::log_request] 200 GET /users (::1) 13.47ms
+2024-03-17 21:32:30,032 - INFO [Admin,0 107 web::log_request] 200 GET /notifications?last_notification=1710711149.749987 (::1) 3.81ms
+2024-03-17 21:32:31,328 - INFO [Admin,0 107 web::log_request] 200 GET /user/2 (::1) 9.08ms
+2024-03-17 21:32:31,591 - INFO [Admin,0 107 web::log_request] 302 GET /notifications?last_notification=1710711151.322219 (::1) 0.41ms
+2024-03-17 21:32:31,837 - INFO [Admin,0 115 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711151.322219 (::1) 5.87ms
+2024-03-17 21:32:42,676 - INFO [Admin,0 113 web::log_request] 302 POST /user/2 (::1) 21.40ms
+2024-03-17 21:32:42,687 - ERROR [Admin,0 116 rpc::process_incoming_response] ProxyService,0 signaled RPC for method reinitialize was unsuccessful: KeyError: 'Contest not found.'
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/rpc.py", line 411, in process_incoming_request
+    response["__data"] = method(**request["__data"])
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ProxyService.py", line 450, in reinitialize
+    self.initialize()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ProxyService.py", line 328, in initialize
+    raise KeyError("Contest not found.")
+KeyError: 'Contest not found.'
+.
+2024-03-17 21:32:42,940 - INFO [Admin,0 113 web::log_request] 200 GET /user/2 (::1) 17.41ms
+2024-03-17 21:32:43,216 - INFO [Admin,0 113 web::log_request] 200 GET /notifications?last_notification=1710711162.93227 (::1) 10.71ms
+2024-03-17 21:32:48,134 - INFO [Admin,0 109 web::log_request] 200 GET /users (::1) 15.45ms
+2024-03-17 21:32:48,400 - INFO [Admin,0 115 web::log_request] 302 GET /notifications?last_notification=1710711168.129172 (::1) 0.40ms
+2024-03-17 21:32:48,655 - INFO [Admin,0 108 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711168.129172 (::1) 12.40ms
+2024-03-17 21:32:49,788 - INFO [Admin,0 108 web::log_request] 200 GET /user/2 (::1) 16.34ms
+2024-03-17 21:32:50,055 - INFO [Admin,0 108 web::log_request] 200 GET /notifications?last_notification=1710711169.776198 (::1) 3.38ms
+2024-03-17 21:32:52,066 - INFO [Admin,0 115 web::log_request] 200 GET /contests/add (::1) 6.73ms
+2024-03-17 21:32:52,331 - INFO [Admin,0 115 web::log_request] 200 GET /notifications?last_notification=1710711172.061307 (::1) 3.49ms
+2024-03-17 21:33:08,386 - INFO [Admin,0 106 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 3.77ms
+2024-03-17 21:33:22,787 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711172.061307 (::1) 3.11ms
+2024-03-17 21:33:37,786 - INFO [Admin,0 109 web::log_request] 302 GET /notifications?last_notification=1710711172.061307 (::1) 0.40ms
+2024-03-17 21:33:38,486 - INFO [Admin,0 108 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711172.061307 (::1) 4.95ms
+2024-03-17 21:33:52,804 - INFO [Admin,0 117 web::log_request] 200 GET /notifications?last_notification=1710711172.061307 (::1) 3.44ms
+2024-03-17 21:34:07,786 - INFO [Admin,0 106 web::log_request] 302 GET /notifications?last_notification=1710711172.061307 (::1) 0.40ms
+2024-03-17 21:34:08,508 - INFO [Admin,0 109 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711172.061307 (::1) 5.27ms
+2024-03-17 21:35:01,053 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711172.061307 (::1) 10.29ms
+2024-03-17 21:35:08,129 - INFO [Admin,0 118 web::log_request] 200 GET /notifications?last_notification=1710711172.061307 (::1) 10.62ms
+2024-03-17 21:35:23,089 - WARNING [Admin,0 118 web::log_request] 404 GET /1 (::1) 0.27ms
+2024-03-17 21:35:23,125 - INFO [Admin,0 119 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 10.03ms
+2024-03-17 21:35:23,383 - WARNING [Admin,0 106 web::log_request] 404 GET /favicon.ico (::1) 0.28ms
+2024-03-17 21:35:26,252 - INFO [Admin,0 106 web::log_request] 200 GET / (::1) 13.61ms
+2024-03-17 21:35:27,005 - INFO [Admin,0 118 web::log_request] 200 GET /notifications?last_notification=1710711326.24666 (::1) 2.88ms
+2024-03-17 21:35:37,788 - INFO [Admin,0 120 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 4.18ms
+2024-03-17 21:35:41,785 - INFO [Admin,0 121 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 5.04ms
+2024-03-17 21:35:52,782 - INFO [Admin,0 121 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 2.78ms
+2024-03-17 21:35:56,806 - INFO [Admin,0 120 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 9.57ms
+2024-03-17 21:36:07,782 - INFO [Admin,0 106 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 4.16ms
+2024-03-17 21:36:11,781 - INFO [Admin,0 106 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 2.95ms
+2024-03-17 21:36:22,790 - INFO [Admin,0 122 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 4.32ms
+2024-03-17 21:36:26,791 - INFO [Admin,0 123 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 3.35ms
+2024-03-17 21:36:37,942 - INFO [Admin,0 119 web::log_request] 304 GET /notifications?last_notification=1710711172.061307 (::1) 3.16ms
+2024-03-17 21:36:47,697 - INFO [Admin,0 106 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 3.22ms
+2024-03-17 21:36:56,802 - INFO [Admin,0 122 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 9.68ms
+2024-03-17 21:37:04,351 - INFO [Admin,0 122 web::log_request] 200 GET /?i=1 (::1) 48.32ms
+2024-03-17 21:37:04,844 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711424.313276 (::1) 10.99ms
+2024-03-17 21:37:07,316 - INFO [Admin,0 106 web::log_request] 200 GET /admins (::1) 8.05ms
+2024-03-17 21:37:07,583 - INFO [Admin,0 123 web::log_request] 200 GET /notifications?last_notification=1710711427.310029 (::1) 3.35ms
+2024-03-17 21:37:08,793 - INFO [Admin,0 123 web::log_request] 302 GET /notifications?last_notification=1710711172.061307 (::1) 0.45ms
+2024-03-17 21:37:09,045 - INFO [Admin,0 123 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711172.061307 (::1) 9.88ms
+2024-03-17 21:37:11,785 - INFO [Admin,0 122 web::log_request] 302 GET /notifications?last_notification=1710711326.24666 (::1) 0.41ms
+2024-03-17 21:37:12,042 - INFO [Admin,0 119 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711326.24666 (::1) 17.57ms
+2024-03-17 21:37:20,122 - INFO [Admin,0 33 rpc::finalize] Terminated connection with 127.0.0.1:59564 (local address: 127.0.0.1:21100): Connection closed.
+2024-03-17 21:37:22,128 - INFO [Admin,0 6 rpc::finalize] Terminated connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:41198): Connection closed.
+2024-03-17 21:37:22,582 - WARNING [Admin,0 2 rpc::_read] Failed reading from socket: [Errno 104] Connection reset by peer.
+2024-03-17 21:37:22,582 - INFO [Admin,0 2 rpc::finalize] Terminated connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:33352): Read failed.
+2024-03-17 21:37:22,592 - INFO [Admin,0 1 rpc::finalize] Terminated connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:54662): Connection closed.
+2024-03-17 21:37:22,632 - INFO [Admin,0 5 rpc::finalize] Terminated connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:41264): Connection closed.
+2024-03-17 21:37:22,794 - INFO [Admin,0 106 web::log_request] 302 GET /notifications?last_notification=1710711427.310029 (::1) 0.45ms
+2024-03-17 21:37:22,799 - INFO [Admin,0 122 web::log_request] 200 GET /notifications?last_notification=1710711172.061307 (::1) 7.99ms
+2024-03-17 21:37:23,047 - INFO [Admin,0 106 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711427.310029 (::1) 5.26ms
+2024-03-17 21:37:26,796 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711326.24666 (::1) 11.40ms
+2024-03-17 21:37:27,581 - INFO [Admin,0 124 web::log_request] 302 GET /contests/add (::1) 0.77ms
+2024-03-17 21:37:27,838 - INFO [Admin,0 125 web::log_request] 200 GET /login?next=%2Fcontests%2Fadd (::1) 13.55ms
+2024-03-17 21:37:29,322 - WARNING [Admin,0 123 web::log_request] 405 GET /logout (::1) 6.30ms
+2024-03-17 21:37:29,606 - INFO [Admin,0 122 web::log_request] 200 GET /notifications?last_notification=1710711449.316153 (::1) 4.62ms
+2024-03-17 21:37:31,169 - INFO [Admin,0 122 web::log_request] 200 GET /contests/add (::1) 6.92ms
+2024-03-17 21:37:31,434 - INFO [Admin,0 106 web::log_request] 200 GET /notifications?last_notification=1710711451.164702 (::1) 3.37ms
+2024-03-17 21:37:33,728 - INFO [Admin,0 119 web::log_request] 302 POST /contests/add (::1) 13.59ms
+2024-03-17 21:37:34,005 - INFO [Admin,0 124 web::log_request] 200 GET /contest/2 (::1) 18.76ms
+2024-03-17 21:37:34,412 - INFO [Admin,0 124 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 3.12ms
+2024-03-17 21:37:37,778 - INFO [Admin,0 124 web::log_request] 302 GET /notifications?last_notification=1710711427.310029 (::1) 0.55ms
+2024-03-17 21:37:38,027 - INFO [Admin,0 123 web::log_request] 304 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711427.310029 (::1) 5.79ms
+2024-03-17 21:37:41,799 - INFO [Admin,0 125 web::log_request] 304 GET /notifications?last_notification=1710711326.24666 (::1) 5.98ms
+2024-03-17 21:37:46,202 - INFO [Admin,0 6 rpc::initialize] Established connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:50572).
+2024-03-17 21:37:49,798 - INFO [Admin,0 123 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 4.35ms
+2024-03-17 21:37:52,588 - INFO [Admin,0 125 web::log_request] 200 GET /notifications?last_notification=1710711427.310029 (::1) 4.76ms
+2024-03-17 21:37:56,694 - INFO [Admin,0 124 web::log_request] 302 GET /notifications?last_notification=1710711326.24666 (::1) 1.34ms
+2024-03-17 21:37:56,986 - INFO [Admin,0 125 web::log_request] 304 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711326.24666 (::1) 46.92ms
+2024-03-17 21:37:59,594 - INFO [Admin,0 126 rpc::initialize] Established connection with 127.0.0.1:35136 (local address: 127.0.0.1:21100).
+2024-03-17 21:38:00,734 - INFO [Admin,0 2 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:39980).
+2024-03-17 21:38:00,735 - INFO [Admin,0 1 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:52052).
+2024-03-17 21:38:01,302 - INFO [Admin,0 5 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:44594).
+2024-03-17 21:38:04,791 - INFO [Admin,0 123 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 3.11ms
+2024-03-17 21:38:07,787 - INFO [Admin,0 127 web::log_request] 304 GET /notifications?last_notification=1710711427.310029 (::1) 3.33ms
+2024-03-17 21:38:20,265 - INFO [Admin,0 127 web::log_request] 302 GET /notifications?last_notification=1710711453.99197 (::1) 0.43ms
+2024-03-17 21:38:20,511 - INFO [Admin,0 128 web::log_request] 200 GET /login?next=%2Fnotifications%3Flast_notification%3D1710711453.99197 (::1) 5.91ms
+2024-03-17 21:38:22,787 - INFO [Admin,0 128 web::log_request] 304 GET /notifications?last_notification=1710711427.310029 (::1) 2.87ms
+2024-03-17 21:38:27,503 - INFO [Admin,0 126 rpc::finalize] Terminated connection with 127.0.0.1:35136 (local address: 127.0.0.1:21100): Connection closed.
+2024-03-17 21:38:29,297 - INFO [Admin,0 6 rpc::finalize] Terminated connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:50572): Connection closed.
+2024-03-17 21:38:29,484 - INFO [Admin,0 1 rpc::finalize] Terminated connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:52052): Connection closed.
+2024-03-17 21:38:29,553 - INFO [Admin,0 5 rpc::finalize] Terminated connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:44594): Connection closed.
+2024-03-17 21:38:29,618 - INFO [Admin,0 2 rpc::finalize] Terminated connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:39980): Connection closed.
+2024-03-17 21:38:34,805 - INFO [Admin,0 121 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 3.20ms
+2024-03-17 21:38:37,783 - INFO [Admin,0 125 web::log_request] 304 GET /notifications?last_notification=1710711427.310029 (::1) 2.71ms
+2024-03-17 21:38:49,782 - INFO [Admin,0 106 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 3.32ms
+2024-03-17 21:38:53,277 - INFO [Admin,0 128 web::log_request] 304 GET /notifications?last_notification=1710711427.310029 (::1) 3.08ms
+2024-03-17 21:39:05,900 - INFO [Admin,0 6 rpc::initialize] Established connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:37478).
+2024-03-17 21:39:08,002 - INFO [Admin,0 128 web::log_request] 200 GET /notifications?last_notification=1710711427.310029 (::1) 208.06ms
+2024-03-17 21:39:08,787 - INFO [Admin,0 125 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 4.04ms
+2024-03-17 21:39:19,766 - INFO [Admin,0 129 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 110.40ms
+2024-03-17 21:39:20,024 - INFO [Admin,0 130 rpc::initialize] Established connection with 127.0.0.1:51952 (local address: 127.0.0.1:21100).
+2024-03-17 21:39:20,266 - INFO [Admin,0 2 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:53156).
+2024-03-17 21:39:20,645 - INFO [Admin,0 1 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:46098).
+2024-03-17 21:39:21,201 - INFO [Admin,0 5 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:57704).
+2024-03-17 21:39:23,149 - INFO [Admin,0 121 web::log_request] 304 GET /notifications?last_notification=1710711427.310029 (::1) 12.43ms
+2024-03-17 21:39:35,267 - INFO [Admin,0 131 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 10.87ms
+2024-03-17 21:39:37,811 - INFO [Admin,0 121 web::log_request] 304 GET /notifications?last_notification=1710711427.310029 (::1) 3.36ms
+2024-03-17 21:39:49,800 - INFO [Admin,0 125 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 10.96ms
+2024-03-17 21:39:54,442 - INFO [Admin,0 130 rpc::finalize] Terminated connection with 127.0.0.1:51952 (local address: 127.0.0.1:21100): Connection closed.
+2024-03-17 21:39:56,678 - INFO [Admin,0 6 rpc::finalize] Terminated connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:37478): Connection closed.
+2024-03-17 21:39:56,840 - INFO [Admin,0 1 rpc::finalize] Terminated connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:46098): Connection closed.
+2024-03-17 21:39:56,920 - INFO [Admin,0 2 rpc::finalize] Terminated connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:53156): Connection closed.
+2024-03-17 21:39:57,057 - INFO [Admin,0 5 rpc::finalize] Terminated connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:57704): Connection closed.
+2024-03-17 21:40:04,789 - INFO [Admin,0 131 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 2.89ms
+2024-03-17 21:40:19,892 - INFO [Admin,0 132 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 10.85ms
+2024-03-17 21:40:35,134 - INFO [Admin,0 131 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 2.82ms
+2024-03-17 21:40:45,825 - INFO [Admin,0 6 rpc::initialize] Established connection with localhost:28000 (ResourceService,0) (local address: 127.0.0.1:38890).
+2024-03-17 21:40:49,947 - INFO [Admin,0 133 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 7.59ms
+2024-03-17 21:40:59,212 - INFO [Admin,0 134 rpc::initialize] Established connection with 127.0.0.1:52134 (local address: 127.0.0.1:21100).
+2024-03-17 21:41:00,577 - INFO [Admin,0 1 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:45562).
+2024-03-17 21:41:00,606 - INFO [Admin,0 2 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:48444).
+2024-03-17 21:41:02,269 - INFO [Admin,0 5 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:33526).
+2024-03-17 21:41:05,116 - INFO [Admin,0 135 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 3.25ms
+2024-03-17 21:41:19,804 - INFO [Admin,0 136 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 10.49ms
+2024-03-17 21:41:34,960 - INFO [Admin,0 137 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 3.45ms
+2024-03-17 21:41:49,808 - INFO [Admin,0 138 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 11.29ms
+2024-03-17 21:42:09,585 - INFO [Admin,0 137 web::log_request] 304 GET /notifications?last_notification=1710711453.99197 (::1) 10.18ms
+2024-03-17 21:42:23,146 - INFO [Admin,0 139 web::log_request] 200 GET /notifications?last_notification=1710711453.99197 (::1) 11.15ms

@@ -1,0 +1,33 @@
+2024-03-18 02:12:45,939 - INFO [Checker,0 Main service::run] Checker 0 up and running!
+2024-03-18 02:12:45,941 - INFO [Checker,0 1 Checker::check] Service LogService,0 not connected.
+2024-03-18 02:12:45,942 - INFO [Checker,0 1 Checker::check] Service ResourceService,0 not connected.
+2024-03-18 02:12:45,942 - INFO [Checker,0 1 Checker::check] Service ScoringService,0 not connected.
+2024-03-18 02:12:45,942 - INFO [Checker,0 1 Checker::check] Service Checker,0 not connected.
+2024-03-18 02:12:45,943 - INFO [Checker,0 1 Checker::check] Service EvaluationService,0 not connected.
+2024-03-18 02:12:45,943 - INFO [Checker,0 1 Checker::check] Service Worker,0 not connected.
+2024-03-18 02:12:45,943 - INFO [Checker,0 1 Checker::check] Service Worker,1 not connected.
+2024-03-18 02:12:45,945 - INFO [Checker,0 1 Checker::check] Service Worker,2 not connected.
+2024-03-18 02:12:45,945 - INFO [Checker,0 1 Checker::check] Service Worker,3 not connected.
+2024-03-18 02:12:45,945 - INFO [Checker,0 1 Checker::check] Service Worker,4 not connected.
+2024-03-18 02:12:45,945 - INFO [Checker,0 1 Checker::check] Service Worker,5 not connected.
+2024-03-18 02:12:45,946 - INFO [Checker,0 1 Checker::check] Service Worker,6 not connected.
+2024-03-18 02:12:45,946 - INFO [Checker,0 1 Checker::check] Service Worker,7 not connected.
+2024-03-18 02:12:45,947 - INFO [Checker,0 1 Checker::check] Service Worker,8 not connected.
+2024-03-18 02:12:45,947 - INFO [Checker,0 1 Checker::check] Service Worker,9 not connected.
+2024-03-18 02:12:45,948 - INFO [Checker,0 1 Checker::check] Service Worker,10 not connected.
+2024-03-18 02:12:45,948 - INFO [Checker,0 1 Checker::check] Service Worker,11 not connected.
+2024-03-18 02:12:45,948 - INFO [Checker,0 1 Checker::check] Service Worker,12 not connected.
+2024-03-18 02:12:45,949 - INFO [Checker,0 1 Checker::check] Service Worker,13 not connected.
+2024-03-18 02:12:45,949 - INFO [Checker,0 1 Checker::check] Service Worker,14 not connected.
+2024-03-18 02:12:45,949 - INFO [Checker,0 1 Checker::check] Service Worker,15 not connected.
+2024-03-18 02:12:45,949 - INFO [Checker,0 1 Checker::check] Service ContestWebServer,0 not connected.
+2024-03-18 02:12:45,953 - INFO [Checker,0 1 Checker::check] Service AdminWebServer,0 not connected.
+2024-03-18 02:12:45,953 - INFO [Checker,0 1 Checker::check] Service ProxyService,0 not connected.
+2024-03-18 02:12:45,954 - INFO [Checker,0 1 Checker::check] Service PrintingService,0 not connected.
+2024-03-18 02:12:45,959 - INFO [Checker,0 9 rpc::initialize] Established connection with localhost:22000 (Checker,0) (local address: 127.0.0.1:60126).
+2024-03-18 02:12:45,965 - INFO [Checker,0 26 rpc::initialize] Established connection with localhost:21100 (AdminWebServer,0) (local address: 127.0.0.1:44748).
+2024-03-18 02:12:45,971 - INFO [Checker,0 27 rpc::initialize] Established connection with 127.0.0.1:60126 (local address: 127.0.0.1:22000).
+2024-03-18 02:12:51,040 - WARNING [Checker,0 28 service::exit] Checker,0 received request to shut down.
+2024-03-18 02:12:51,041 - INFO [Checker,0 Main service::run] Checker 0 is shutting down
+2024-03-18 02:12:51,041 - INFO [Checker,0 Main rpc::finalize] Terminated connection with localhost:22000 (Checker,0) (local address: 127.0.0.1:60126): Disconnection requested.
+2024-03-18 02:12:51,042 - INFO [Checker,0 Main rpc::finalize] Terminated connection with localhost:21100 (AdminWebServer,0) (local address: 127.0.0.1:44748): Disconnection requested.

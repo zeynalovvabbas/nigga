@@ -1,0 +1,5 @@
+2024-03-18 02:20:38,630 - INFO [Contest,0 Main service::run] ContestWebServer 0 up and running!
+2024-03-18 02:20:49,948 - INFO [Contest,0 6 authentication::_authenticate_request_from_cookie] Unsuccessful cookie authentication: no cookie provided
+2024-03-18 02:20:50,062 - INFO [Contest,0 6 web::log_request] 200 GET / (::1) 117.34ms
+2024-03-18 02:21:15,857 - WARNING [Contest,0 7 service::exit] ContestWebServer,0 received request to shut down.
+2024-03-18 02:21:15,858 - INFO [Contest,0 Main service::run] ContestWebServer 0 is shutting down

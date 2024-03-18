@@ -1,0 +1,17 @@
+2024-03-18 02:27:04,498 - INFO [Contest,0 Main service::run] ContestWebServer 0 up and running!
+2024-03-18 02:27:04,704 - INFO [Contest,0 6 rpc::initialize] Established connection with 127.0.0.1:41752 (local address: 127.0.0.1:21000).
+2024-03-18 02:27:21,667 - INFO [Contest,0 6 rpc::finalize] Terminated connection with 127.0.0.1:41752 (local address: 127.0.0.1:21000): Connection closed.
+2024-03-18 02:27:37,142 - INFO [Contest,0 4 rpc::initialize] Established connection with localhost:29000 (LogService,0) (local address: 127.0.0.1:33538).
+2024-03-18 02:27:39,865 - INFO [Contest,0 4 rpc::finalize] Terminated connection with localhost:29000 (LogService,0) (local address: 127.0.0.1:33538): Connection closed.
+2024-03-18 02:27:50,900 - INFO [Contest,0 4 rpc::initialize] Established connection with localhost:29000 (LogService,0) (local address: 127.0.0.1:40924).
+2024-03-18 02:28:34,339 - INFO [Contest,0 4 rpc::finalize] Terminated connection with localhost:29000 (LogService,0) (local address: 127.0.0.1:40924): Connection closed.
+2024-03-18 02:30:03,027 - INFO [Contest,0 7 rpc::initialize] Established connection with 127.0.0.1:58760 (local address: 127.0.0.1:21000).
+2024-03-18 02:30:03,655 - INFO [Contest,0 3 rpc::initialize] Established connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:59124).
+2024-03-18 02:30:04,658 - INFO [Contest,0 2 rpc::initialize] Established connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:50154).
+2024-03-18 02:30:05,158 - INFO [Contest,0 1 rpc::initialize] Established connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:51686).
+2024-03-18 02:30:05,161 - INFO [Contest,0 5 rpc::initialize] Established connection with localhost:25123 (PrintingService,0) (local address: 127.0.0.1:39888).
+2024-03-18 02:31:53,343 - INFO [Contest,0 7 rpc::finalize] Terminated connection with 127.0.0.1:58760 (local address: 127.0.0.1:21000): Connection closed.
+2024-03-18 02:31:55,590 - INFO [Contest,0 2 rpc::finalize] Terminated connection with localhost:28500 (ScoringService,0) (local address: 127.0.0.1:50154): Connection closed.
+2024-03-18 02:31:55,681 - INFO [Contest,0 5 rpc::finalize] Terminated connection with localhost:25123 (PrintingService,0) (local address: 127.0.0.1:39888): Connection closed.
+2024-03-18 02:31:55,698 - INFO [Contest,0 3 rpc::finalize] Terminated connection with localhost:25000 (EvaluationService,0) (local address: 127.0.0.1:59124): Connection closed.
+2024-03-18 02:31:55,702 - INFO [Contest,0 1 rpc::finalize] Terminated connection with localhost:28600 (ProxyService,0) (local address: 127.0.0.1:51686): Connection closed.

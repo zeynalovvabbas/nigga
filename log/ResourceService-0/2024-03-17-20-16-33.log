@@ -1,0 +1,186 @@
+2024-03-17 20:16:33,826 - INFO [Resource,0 Main service::run] ResourceService 0 up and running!
+2024-03-17 20:16:33,830 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:16:33,838 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:16:33,839 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:16:34,314 - INFO [Resource,0 3 rpc::initialize] Established connection with 127.0.0.1:39314 (local address: 127.0.0.1:28000).
+2024-03-17 20:16:38,835 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:16:38,843 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:16:38,844 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:16:43,836 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:16:43,845 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:16:43,846 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:16:48,840 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:16:48,848 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:16:48,848 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:16:53,840 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:16:53,847 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:16:53,847 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:16:58,841 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:16:58,849 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:16:58,849 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:03,842 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:03,850 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:03,851 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:08,842 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:08,851 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:08,851 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:13,843 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:13,851 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:13,851 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:18,844 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:18,852 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:18,852 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:23,844 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:23,853 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:23,853 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:28,845 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:28,853 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:28,854 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:33,845 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:33,853 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:33,853 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:38,847 - INFO [Resource,0 2 ResourceService::_restart_services] Restarting (Checker, 0)...
+2024-03-17 20:17:38,855 - ERROR [Resource,0 2 ResourceService::_restart_services] Error for command line './scripts/cmsChecker 0 -c 1'
+2024-03-17 20:17:38,856 - ERROR [Resource,0 2 service::repeater] Unexpected error.
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/io/service.py", line 80, in repeater
+    func()
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/cms-1.4rc1-py3.10.egg/cms/service/ResourceService.py", line 273, in _restart_services
+    process = subprocess.Popen(args,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 808, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/gevent/subprocess.py", line 1838, in _execute_child
+    raise child_exception
+FileNotFoundError: [Errno 2] No such file or directory: './scripts/cmsChecker'
+2024-03-17 20:17:39,519 - WARNING [Resource,0 5 service::exit] ResourceService,0 received request to shut down.
+2024-03-17 20:17:39,520 - INFO [Resource,0 Main service::run] ResourceService 0 is shutting down

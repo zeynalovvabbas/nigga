@@ -1,0 +1,6 @@
+2024-03-17 20:07:52,349 - INFO [Admin,0 Main service::run] AdminWebServer 0 up and running!
+2024-03-17 20:07:52,351 - INFO [Admin,0 4 rpc::initialize] Established connection with localhost:21100 (AdminWebServer,0) (local address: 127.0.0.1:45980).
+2024-03-17 20:07:52,351 - INFO [Admin,0 7 rpc::initialize] Established connection with 127.0.0.1:45980 (local address: 127.0.0.1:21100).
+2024-03-17 20:08:33,854 - WARNING [Admin,0 10 service::exit] AdminWebServer,0 received request to shut down.
+2024-03-17 20:08:33,854 - INFO [Admin,0 Main service::run] AdminWebServer 0 is shutting down
+2024-03-17 20:08:33,855 - INFO [Admin,0 Main rpc::finalize] Terminated connection with localhost:21100 (AdminWebServer,0) (local address: 127.0.0.1:45980): Disconnection requested.
